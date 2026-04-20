@@ -23,7 +23,7 @@ y no me malinterpreten, este patron no esta mal cuando queremos hacer exploracio
 ### 1.2 Por qué ahora
 
 -   El costo marginal de desplegar modelos ha caído drásticamente.
--   Nuestros competidores directos seguramente tambien estan buscando la forma de implementar IA en sus operaciones - no esperemos a que eso suceda.
+-   Nuestros competidores directos estan buscando la forma de implementar IA en sus operaciones.
 -   Nuestra empresa tiene la escala suficiente para que **pequeñas mejoras porcentuales generen impacto absoluto relevante**
 -   Porque construir una base de conocimiento nos permite evitar las malas acciones del pasado y garantizar el exito para el futuro
 
@@ -50,47 +50,69 @@ y no me malinterpreten, este patron no esta mal cuando queremos hacer exploracio
 
 ---
 
-## 3\. Pilares estratégicos
+## 3\. Soluciones estratégicos
 
-Propongo nueve pilares. y el noveno pilar — **Atlas** — es la plataforma interna que materializa todo lo anterior en una sola experiencia para el empleado y se convierte en la carta diferenciadora de la propuesta.
+Pilar 1: Datos y plataforma
 
-### Pilar 1: Datos y plataforma (foundation)
+-   Task management
+-   KB for Teams 
+-   KB for Users
+-   **Atlas:** un ecosistema único, interno, donde cada equipo tiene sus propios módulos de IA construidos sobre su conocimiento específico, corriendo sobre una infraestructura compartida de gobierno, seguridad y datos. No es un chatbot más ni una wiki con IA: es el sistema operativo interno de la empresa para la era de la IA.
 
-Es el cimiento. Sin esto, los demás pilares se construyen sobre arena.
+### Pilar 2: Soporte
 
-### Pilar 2: Operaciones (marketplace intelligence)
+###
 
-El corazón del negocio: matching, pricing, supply, fraude, forecasting.
+-   Asistente de documentación y conocimiento: RAG sobre documentos internos (políticas, procesos, histórico de experimentos) para que cualquier empleado pregunte y reciba respuesta con fuentes.
+-   AI Asistente para conductores
+-   Agent Copilot: asiste al agente humano con respuestas sugeridas, resumen de historial y política aplicable.
+-   Sentinel Quality Analyzer: revisa conversaciones cerradas y detecta problemas de atención.
 
-### Pilar 3: Producto y experiencia (IA embebida en UI/UX)
+### Pilar 3: Operaciones & Analitica
 
-Cómo la IA aparece en la app para pasajeros y conductores.
+-   Plantillas para automatizar creacion de campañas
+-   **Forecasting con ML** — el salto desde Sheets a sistemas probabilísticos
+-   “Chatea con tus datos”: interfaz conversacional sobre el warehouse. Un gerente pregunta “¿cuánto creció ridehailing en Bogotá la semana pasada vs la anterior?” y obtiene respuesta con visualización. Reduce la cola de BI y empodera a la empresa. 
+-   Alertas inteligentes: en lugar de dashboards que nadie mira, el sistema detecta anomalías (caída de conversión, spike de cancelaciones, drop en ciudad X) y notifica con contexto.
+-   Narrativas automáticas: reportes semanales/mensuales generados con LLM que explican el qué y el por qué, no solo el número.
+-   Simuladores de decisión: “¿qué pasa si subo 5% los incentivos en Ciudad de México este fin de semana?” — modelo causal que estima el efecto esperado.
+-   Crear un asistente de creacion de comunicaciones - equipo de marketing - do and donts muy definidos y con ejemplos
 
-### Pilar 4: Comunicaciones y soporte (conversational AI)
+### Pilar 4: Producto y experiencia - UI/UX
 
-Interacciones automáticas y asistidas con usuarios y conductores.
+-   Construir mirror of the App - Tomando en cuante nuevos lanzamientos
+-   Construir mockups rapidos: Prompting bases para todos trabajr en un mismo diseño
 
-### Pilar 5: Analítica y decisión (from insights to systems)
+Pilar 5: Talento y cultura  
 
-Pasar de dashboards a sistemas de decisión, incluyendo copilotos internos.
+-   AI Academy interna: formación por niveles (literacy para todos).
+-   Librería de prompts y agentes internos reutilizables.
+-   Licencias corporativas de copilotos (Claude, ChatGPT, Copilot) con gobierno de uso.
+-   Métricas de adopción de IA por equipo.
 
-### Pilar 6: Seguridad y confianza (safety & trust)
+  
 
-Detección de incidentes, verificación, moderación. Crítico reputacional y regulatorio.
+## 4\. Stack tecnológico propuesto
 
-### Pilar 7: Gobierno, privacidad y ética (AI governance)
+Recomendación de punto de partida, sujeto a validación con IT e Ingeniería:
 
-Políticas, controles, auditabilidad. Sin esto no hay licencia para operar.
+-   Lenguaje principal: Python (modelos, agentes) + SQL (features, analítica).
+-   Warehouse / Lakehouse: lo que ya exista (Snowflake, BigQuery, Redshift, Databricks). Si no hay, evaluar Databricks o BigQuery.
+-   Feature store: Feast (open source) o Tecton (managed).
+-   Orquestación: Airflow o Prefect.
+-   MLOps: MLflow + Weights & Biases; o plataforma integrada tipo Databricks.
+-   Serving: FastAPI + contenedores; para latencia baja, Triton o BentoML.
+-   Streaming: Kafka / Redpanda + Flink o Spark Streaming.
+-   LLMs self-hosted: Llama 3+ sobre GPUs gestionadas (on-prem, AWS, GCP o Azure según política).
+-   LLMs externos: Claude, GPT-4 para casos no sensibles y prototipado rápido.
+-   Vector DB: pgvector (simple), Qdrant o Weaviate (escala).
+-   Observabilidad: Evidently (drift), Arize o Fiddler (model monitoring).
+-   Experimentación: plataforma A/B interna o GrowthBook.
+-   Seguridad: gateway de LLMs (ej. LiteLLM + capa propia) para log, rate limit y PII redaction.
 
-### Pilar 8: Talento y cultura (AI literacy)
+Principio: pocos componentes, bien dominados, en lugar de zoo tecnológico.
 
-Cómo toda la empresa sube su nivel de IA, no solo el equipo central.
-
-### Pilar 9: Atlas — Plataforma Interna de IA
-
-El sistema operativo interno de la empresa. Un ecosistema único donde cada equipo tiene sus propios módulos de IA construidos sobre su conocimiento específico, corriendo sobre una infraestructura compartida de gobierno, seguridad y datos. Es el pilar que convierte a la empresa en **una organización que aprende** y el activo más difícil de replicar por competidores.
-
----
+  
 
 ## 4\. Casos de uso por pilar
 
@@ -266,34 +288,9 @@ Como módulo dentro de **Atlas** (ver Pilar 9). Accesible desde Slack/Teams y de
 **Relación con BI**  
 Clave: no es reemplazo. BI define la capa semántica, valida ejemplos, revisa casos difíciles y sigue siendo dueño del conocimiento analítico. El agente **los libera** de lo repetitivo para que hagan lo estratégico. Vender esto internamente como *“BI 10x”*, no como *“BI reemplazado”*.
 
-### 4.6 Seguridad y confianza
-
--   **SOS inteligente**: detección de situaciones anómalas durante viajes (paradas no programadas, desvíos sospechosos, silencios largos en llamadas grabadas si aplica).
--   **Verificación facial antes del viaje**: que el conductor que aparece en la app sea el que realmente está manejando.
--   **Detección de comportamiento riesgoso**: frenadas bruscas, exceso de velocidad, uso del teléfono (con telemetría).
--   **Scoring de riesgo por zona**: mapas de seguridad para mejor asignación de viajes nocturnos.
--   **Detección de cuentas comprometidas**: login anómalo, cambio de dispositivo, patrones sospechosos.
--   **Moderación automática de contenido** (fotos de perfil, mensajes en chat in-app).
-
-### 4.7 Gobierno, privacidad y ética
-
-No son casos de uso sino capacidades:
-
--   **Política de uso de IA** clara y publicada internamente.
--   **Comité de revisión de modelos de alto riesgo** (pricing, fraude, safety): antes de producción se revisa sesgos, fairness, impacto.
--   **Data lineage**: saber de dónde viene cada dato y quién lo tocó.
--   **PII detection & redaction**: sistemas automáticos que identifican y enmascaran datos personales antes de que entren a prompts o modelos.
--   **Auditabilidad**: logs de qué modelo tomó qué decisión sobre qué usuario, con capacidad de revisión retroactiva.
--   **Cumplimiento regional**: GDPR en Europa si aplica, LGPD Brasil, Ley 1581 Colombia, LFPDPPP México, etc.
--   **Prompt injection defense**: especialmente en agentes conversacionales.
--   **Red teaming interno**: equipo o proceso que intenta romper los modelos antes de que lo hagan usuarios maliciosos.
--   **Explicabilidad**: en decisiones de alto impacto (bloquear cuenta, negar viaje) debe existir justificación comprensible.
-
 ### 4.8 Talento y cultura
 
 -   **AI Academy interna**: formación por niveles (literacy para todos, práctico para power users, técnico para BI/Eng).
--   **Office hours semanales** del equipo de AI para cualquier empleado.
--   **Hackathons internos** trimestrales con casos reales.
 -   **Librería de prompts y agentes internos** reutilizables.
 -   **Licencias corporativas** de copilotos (Claude, ChatGPT, Copilot) con gobierno de uso.
 -   **Métricas de adopción** de IA por equipo.
