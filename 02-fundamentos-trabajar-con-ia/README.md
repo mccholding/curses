@@ -6,10 +6,11 @@ Este es el **segundo curso** de la ruta recomendada. Se dicta después de **01 �
 
 Funciona como puente entre saber diseñar prompts, contexto y loops, y comprender las tecnologías que permiten construir proyectos, delegar trabajo y crear automatizaciones.
 
-Después de este curso, el alumno puede elegir una o ambas rutas de plataforma:
+Después de este curso, el alumno puede elegir una o varias rutas de plataforma:
 
 - [03A · Cómo usar ChatGPT](../03a-como-usar-chatgpt/README.md)
 - [03B · Cómo usar Claude](../03-como-usar-claude/README.md)
+- [03C · Cómo usar Gemini y NotebookLM](../03c-gemini-notebooklm/README.md)
 
 ## Audiencia
 
@@ -34,7 +35,8 @@ Al finalizar, la persona podrá:
 - reconocer cuándo conviene usar Codex, Claude Code, hooks y loops;
 - elegir el nivel mínimo necesario para desarrollar un proyecto con IA;
 - diseñar una primera automatización con verificación y controles humanos;
-- comparar capacidades sin reducir la decisión a una marca.
+- comparar capacidades sin reducir la decisión a una marca;
+- distinguir una plataforma general de un entorno documental fundamentado como NotebookLM.
 
 ## Archivos
 
