@@ -24,9 +24,11 @@ Prerrequisitos recomendados:
 
 1. [01 · Cómo comunicarnos y trabajar con la IA](../01-comunicarnos-trabajar-con-ia/README.md)
 2. [02 · Fundamentos de trabajar con IA](../02-fundamentos-trabajar-con-ia/README.md)
-3. [03 · Cómo usar Claude](../03-como-usar-claude/README.md), recomendado pero no obligatorio
+3. Una ruta de plataforma, recomendada pero no obligatoria:
+   - [03A · Cómo usar ChatGPT](../03a-como-usar-chatgpt/README.md)
+   - [03B · Cómo usar Claude](../03-como-usar-claude/README.md)
 
-El curso 01 aporta Prompt, Context y Loop Engineering. El curso 02 aporta el mapa tecnológico. El curso 03 enseña a implementar esos principios en Claude. Este curso integra las piezas en un sistema empresarial funcional.
+El curso 01 aporta Prompt, Context y Loop Engineering. El curso 02 aporta el mapa tecnológico. Los cursos 03A y 03B enseñan a implementar esos principios dentro de ChatGPT o Claude. Este curso integra las piezas en un sistema empresarial funcional y transferible entre modelos.
 
 ## Audiencia
 
@@ -50,6 +52,8 @@ El curso 01 aporta Prompt, Context y Loop Engineering. El curso 02 aporta el map
 - **Ruta con código:** Python, API de modelos, SQLite o PostgreSQL, MCP y frameworks agénticos.
 
 Ambas rutas comparten arquitectura, políticas, pruebas, evaluaciones, controles humanos y estándares de calidad.
+
+El alumno puede utilizar modelos de OpenAI, Anthropic, Google u otros proveedores. Los ejemplos pueden mostrar ChatGPT, Claude, Codex o Claude Code, pero la arquitectura no debe quedar bloqueada a una marca.
 
 ## Resultado final
 
