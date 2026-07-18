@@ -62,6 +62,6 @@ Este curso no enseña programación, APIs, MCP, Codex, Claude Code ni construcci
 
 - **Curso 01:** diseña la comunicación, el contexto y el proceso.
 - **Curso 02:** explica LLM, RAG, MCP, Skills, plugins, agentes y otras piezas.
-- **Curso 03A o 03B:** implementa estos principios dentro de ChatGPT, Claude o ambas plataformas.
+- **Curso 03A, 03B o 03C:** implementa estos principios dentro de ChatGPT, Claude, Gemini y NotebookLM.
 - **Curso 04:** los aplica a productividad y procesos empresariales.
 - **Curso 05:** los convierte en sistemas agénticos funcionales.
