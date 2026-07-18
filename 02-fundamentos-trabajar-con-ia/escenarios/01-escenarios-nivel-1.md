@@ -1,0 +1,19 @@
+# 🟢 NIVEL 1 — Entender y conversar
+*Escenarios para: LLM, tokens/contexto, modelos, alucinaciones, chat, prompts, web/RAG.*
+
+## 🏪 Laura (PyME)
+Laura empieza usando el chat para redactar la respuesta a un cliente molesto por un pedido incompleto **(1.5)**. Le funciona tan bien que un día pega su catálogo completo de 200 productos y pregunta por uno solo — la IA se confunde y mezcla precios: descubre la ventana de contexto **(1.2)**. Aprende la fórmula de 5 ingredientes y su prompt de cotizaciones pasa de "cotízame esto" a rol + contexto + formato: las cotizaciones salen a la primera **(1.6)**. Pregunta "¿a cuánto vende la competencia el aceite de cocina?" y la IA responde con datos viejos; aprende a pedir búsqueda web **(1.7)**. Una vez la IA "recordó" un descuento de proveedor que nunca existió — desde entonces verifica toda cifra antes de comprometerla **(1.4)**. Y entiende que para responder mensajes de WhatsApp masivos le basta un modelo rápido, pero para analizar si le conviene abrir una segunda sucursal usa el potente **(1.3)**.
+
+## 🏢 Marco (Corporativo)
+Marco descubre el chat resumiendo minutas de juntas de 2 horas en 10 líneas **(1.5)**. Mantiene una sola conversación durante 3 semanas para "que la IA tenga todo el contexto" — hasta que las respuestas se vuelven confusas: su escritorio se llenó **(1.2)**. Para el reporte a dirección aprende a dar rol, formato y ejemplo del trimestre anterior **(1.6)**. Casi incluye en una presentación una cifra de participación de mercado que la IA generó con total seguridad — la verificación de 5 minutos le salvó la credibilidad **(1.4)**. Ahora, para datos de la industria, siempre pide búsqueda con fuentes **(1.7)**, y para clasificar 500 tickets de soporte usa el modelo rápido en vez del pesado: mismo resultado, fracción del tiempo **(1.3)**.
+
+## ⚖️ Sofía (Servicios profesionales)
+Sofía empieza pidiendo primeros borradores de convenios sencillos **(1.5)**. Conoce el caso famoso de abogados sancionados por citar jurisprudencia que la IA inventó — para ella, la sección de alucinaciones no es teoría: toda cita se verifica contra la fuente oficial, sin excepciones **(1.4)**. Aprende que pegar el expediente completo de 300 páginas funciona peor que pegar las 10 cláusulas relevantes **(1.2)**. Su prompt estrella empieza con "Actúa como abogado corporativo revisando desde la perspectiva del arrendatario..." **(1.6)**. Y cuando escucha "queremos que la IA responda con base en nuestros machotes y contratos modelo", reconoce que eso se llama RAG **(1.7)**.
+
+## 🎓 Andrés (Educación)
+Andrés usa el chat para explicar el mismo tema de tres formas distintas: para el alumno visual, el práctico y el que va atrasado **(1.5)**. Diseña prompts que generan preguntas de examen alineadas a su rúbrica **(1.6)**. Un día la IA le da una referencia bibliográfica perfecta... de un libro que no existe: convierte el episodio en una clase sobre verificación para sus propios alumnos **(1.4)**. Al revisar 40 ensayos entiende por qué conviene procesarlos en tandas y no en una sola conversación eterna **(1.2)**. Para su clase de historia contemporánea, pide búsqueda web de eventos recientes con fuentes **(1.7)**, y para retroalimentación rápida de tareas usa el modelo ligero **(1.3)**.
+
+## 📣 Valeria (Marketing)
+Valeria genera 20 ideas de campaña en 10 minutos **(1.5)** y aprende que darle 3 ejemplos de posts anteriores (few-shot) clava el tono de cada marca **(1.6)**. Una estadística de engagement "muy citable" que la IA le dio resultó inexistente — ahora toda cifra para clientes se verifica **(1.4)**. Pegaba el brandbook completo de 60 páginas hasta que descubrió que un resumen de 1 página funciona mejor **(1.2)**. Las tendencias de la semana siempre las pide con búsqueda web **(1.7)**, y para generar 50 variaciones de un copy usa el modelo rápido: la creatividad fina la reserva para el potente **(1.3)**.
+
+---
