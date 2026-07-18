@@ -12,7 +12,7 @@ Esta ruta organiza los cursos desde el diseño de interacciones con inteligencia
 | **04** | **IA en el Trabajo 2026** | Contenido actual en `AI_updates/` | Integrar herramientas y tendencias actuales de IA en productividad, automatización, desarrollo, datos y estrategia empresarial. |
 | **05** | **Construye una Empresa Potenciada por Agentes de IA** | `05-empresa-potenciada-agentes/` | Diseñar, construir, evaluar y operar un sistema de agentes para procesos empresariales reales. |
 | **06** | **Pedagogía en la Era Agéntica** | En planificación | Especialización para profesores, coordinadores y estudiantes. |
-| **07** | **Estrategia y Gobernanza de IA** | En planificación | Especialización para líderes y gerentes: ROI, riesgos, cumplimiento, adopción y reskilling. |
+| **07** | **Estrategia, Implementación y Gobernanza de IA** | `07-estrategia-implementacion-gobernanza-ia/` | Dirigir la adopción organizacional: prioridades, procesos, inversión, riesgo, talento, pilotos, operación y roadmap. |
 
 ## Arquitectura de la ruta
 
@@ -91,6 +91,16 @@ Se ofrecen dos rutas equivalentes:
 - Python y código.
 
 El estándar común incluye datos, herramientas, agentes, coordinación, evals, controles humanos, observabilidad, operación y ROI.
+
+## Nota sobre el curso 07
+
+El programa está dirigido a gerentes, directores, vicepresidentes, dueños de empresa y responsables de transformación. No requiere programación.
+
+- **Duración sugerida:** 24 horas.
+- **Resultado:** Plan de Implementación de IA de 12 meses.
+- **Ejes:** madurez, estrategia, procesos, proveedores, datos, riesgo, ROI, talento, pilotos, operación y gobierno.
+
+Utiliza NIST AI RMF, ISO/IEC 42001, los Principios de IA de la OCDE y regulación aplicable como referencias. Distingue estándares voluntarios, regulación y asesoría profesional.
 
 ## Material legado
 
