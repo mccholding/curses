@@ -8,6 +8,7 @@ Esta ruta organiza los cursos desde el diseño de interacciones con inteligencia
 | **02** | **Fundamentos de trabajar con IA** | `02-fundamentos-trabajar-con-ia/` | Entender el mapa completo: LLM, tokens, contexto, modelos, RAG, MCP, Skills, agentes, herramientas y loops. |
 | **03A** | **Cómo usar ChatGPT: de cero a avanzado** | `03a-como-usar-chatgpt/` | Dominar ChatGPT mediante una Ruta profesional y una Especialización Codex. |
 | **03B** | **Cómo usar Claude: de cero a avanzado** | `03-como-usar-claude/` | Dominar Claude mediante una Ruta profesional y una Especialización Claude Code. |
+| **03C** | **Cómo usar Gemini y NotebookLM** | `03c-gemini-notebooklm/` | Dominar Gemini para trabajo conectado y NotebookLM para investigación y aprendizaje fundamentados en fuentes. |
 | **04** | **IA en el Trabajo 2026** | Contenido actual en `AI_updates/` | Integrar herramientas y tendencias actuales de IA en productividad, automatización, desarrollo, datos y estrategia empresarial. |
 | **05** | **Construye una Empresa Potenciada por Agentes de IA** | `05-empresa-potenciada-agentes/` | Diseñar, construir, evaluar y operar un sistema de agentes para procesos empresariales reales. |
 | **06** | **Pedagogía en la Era Agéntica** | En planificación | Especialización para profesores, coordinadores y estudiantes. |
@@ -22,17 +23,18 @@ Esta ruta organiza los cursos desde el diseño de interacciones con inteligencia
 
 ### Plataformas
 
-Después del tronco común, el alumno puede elegir una o ambas rutas:
+Después del tronco común, el alumno puede elegir una o varias rutas:
 
 ```text
-                 ┌── 03A · ChatGPT para profesionales
-01 → 02 ─────────┤       └── Especialización Codex
-                 │
-                 └── 03B · Claude para profesionales
-                         └── Especialización Claude Code
+                  ┌── 03A · ChatGPT para profesionales
+                  │       └── Especialización Codex
+01 → 02 ──────────┼── 03B · Claude para profesionales
+                  │       └── Especialización Claude Code
+                  └── 03C · Gemini para profesionales
+                          └── NotebookLM para investigación y aprendizaje
 ```
 
-ChatGPT y Claude no son pasos obligatorios uno después del otro. Son plataformas paralelas. Un alumno puede completar una sola, comparar ambas o tomar únicamente la especialización técnica relevante.
+ChatGPT, Claude y Gemini son plataformas paralelas. NotebookLM es una especialización documental del ecosistema Google. Un alumno puede completar una sola ruta, comparar varias o tomar la especialización que corresponda a su trabajo.
 
 ### Aplicación y especializaciones
 
@@ -60,8 +62,6 @@ El Nivel 1 de **Fundamentos de trabajar con IA** retoma conceptos de prompts, co
 
 ## Nota sobre el curso 03A · ChatGPT
 
-El curso se divide en:
-
 - **ChatGPT para profesionales:** 10 módulos y aproximadamente 18 horas, sin requisito de programación.
 - **Especialización Codex:** 10 módulos de 2–3 horas para desarrolladores y perfiles técnicos.
 
@@ -69,12 +69,17 @@ La Ruta profesional cubre Chat, Projects, memoria, investigación profunda, Canv
 
 ## Nota sobre el curso 03B · Claude
 
-El curso se divide en:
-
 - **Claude para profesionales:** 8 módulos y aproximadamente 16 horas, sin requisito de programación.
 - **Especialización Claude Code:** 12 módulos de 2–3 horas para desarrolladores y perfiles técnicos.
 
 La ruta profesional puede dictarse por separado. Claude Code no debe comprimirse dentro de una sola sesión del curso general.
+
+## Nota sobre el curso 03C · Gemini y NotebookLM
+
+- **Gemini para profesionales:** 8 módulos y aproximadamente 16 horas.
+- **NotebookLM para investigación y aprendizaje:** 6 módulos y aproximadamente 10 horas.
+
+Gemini cubre multimodalidad, Workspace, Gems, Deep Research, Canvas, aplicaciones y acciones programadas. NotebookLM cubre corpus controlados, citas, Context Engineering documental, informes, mapas, audio, vídeo y publicación responsable.
 
 ## Nota sobre el curso 05
 
