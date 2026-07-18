@@ -17,4 +17,18 @@ Versión organizada del curso, dividida por bloques para facilitar su enseñanza
 
 ## Lugar en la ruta
 
-Este curso corresponde al número **02** y se recomienda después de **01 · Cómo comunicarte con la IA — Prompting**.
+Este curso corresponde al número **02** y se recomienda después de:
+
+- [**01 · Cómo comunicarnos y trabajar con la IA**](../01-comunicarnos-trabajar-con-ia/README.md)
+
+El curso 01 enseña a diseñar instrucciones, contexto y ciclos de trabajo. Este curso 02 explica las piezas tecnológicas que hacen posibles sistemas más avanzados: LLM, tokens, modelos, RAG, MCP, Skills, agentes, Claude Code, hooks y automatización.
+
+## Evitar repetición
+
+Las secciones iniciales sobre conversación y prompting deben utilizarse como repaso. El instructor debe concentrar la profundidad en:
+
+- funcionamiento y límites de los modelos;
+- recuperación de información;
+- conexiones y herramientas;
+- delegación;
+- selección del nivel correcto de autonomía.
