@@ -23,7 +23,7 @@ La nueva versión se divide en dos rutas:
 Para personas de operaciones, administración, educación, marketing, consultoría, liderazgo, análisis y creación de contenido.
 
 - **Duración sugerida:** 16 horas.
-- **Formato:** 8 módulos de 2 horas.
+- **Formato:** 8 módulos progresivos con práctica y entregables.
 - **Prerequisito:** haber usado un chat de IA y conocer prompting básico.
 - **Resultado:** diseñar un espacio de trabajo completo en Claude, con proyectos, archivos, artifacts, investigación, conectores, delegación y controles humanos.
 
