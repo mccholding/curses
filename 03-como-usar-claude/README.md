@@ -1,16 +1,20 @@
-# 03 · Cómo usar Claude: de cero a avanzado
+# 03B · Cómo usar Claude: de cero a avanzado
 
 Curso organizado como una ruta progresiva para aprender el ecosistema Claude sin mezclar públicos ni niveles técnicos.
 
 ## Lugar en la ruta
 
-Este es el **tercer curso** de la ruta recomendada:
+Claude es una ruta de plataforma paralela a ChatGPT:
 
 1. [**01 · Cómo comunicarnos y trabajar con la IA**](../01-comunicarnos-trabajar-con-ia/README.md)
 2. [**02 · Fundamentos de trabajar con IA**](../02-fundamentos-trabajar-con-ia/README.md)
-3. **03 · Cómo usar Claude: de cero a avanzado**
+3. Elegir una o ambas plataformas:
+   - [**03A · Cómo usar ChatGPT**](../03a-como-usar-chatgpt/README.md)
+   - **03B · Cómo usar Claude**
 
-El curso 01 enseña Prompt Engineering, Context Engineering y Loop Engineering. El curso 02 explica el mapa general de tecnologías y niveles de autonomía. Este curso 03 se concentra en **implementar esos principios dentro de Claude como plataforma de trabajo**.
+El curso 01 enseña Prompt Engineering, Context Engineering y Loop Engineering. El curso 02 explica el mapa general de tecnologías y niveles de autonomía. Este curso aplica esos principios dentro de Claude como plataforma de trabajo.
+
+ChatGPT y Claude no son cursos consecutivos obligatorios. Cada persona puede elegir una plataforma, comparar ambas o completar las dos.
 
 ## Decisión estructural
 
@@ -47,6 +51,19 @@ Para desarrolladores y perfiles técnicos con conocimientos básicos de terminal
 | Context Engineering | Projects, archivos, conocimiento, conversaciones y CLAUDE.md |
 | Loop Engineering | delegación, tareas, agentes, hooks, verificación y automatización |
 
+## Relación con ChatGPT
+
+Los cursos no deben plantearse como una competencia de marcas.
+
+| Capacidad | Claude | ChatGPT |
+|---|---|---|
+| Contexto de largo plazo | Projects y conocimiento | Projects y memoria |
+| Entregables | Artifacts | Canvas y ChatGPT Work |
+| Especialización sin código | Projects, Skills y configuraciones | GPTs |
+| Datos y acciones | Connectors y MCP | Plugins y apps |
+| Trabajo recurrente | Tareas y automatización | Tareas programadas y Work |
+| Desarrollo | Claude Code | Codex |
+
 ## Estructura del repositorio
 
 ```text
@@ -78,6 +95,6 @@ Cada módulo debe incluir:
 5. un entregable verificable;
 6. una evaluación o reflexión de cierre.
 
-## Qué se conserva del curso anterior
+## Material anterior
 
-El material anterior sigue siendo útil como banco de explicaciones, ejemplos y prompts. Sin embargo, deja de ser el documento principal. Se mantiene en la carpeta `claude/` como material legado mientras se migra y depura.
+El material anterior sigue siendo útil como banco de explicaciones, ejemplos y prompts, pero dejó de ser el programa principal. Se conserva en [`backups/claude/`](../backups/claude/README.md).
