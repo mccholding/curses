@@ -1,0 +1,98 @@
+# Pack de plantillas · Gemini y NotebookLM
+
+## 1. Selector de herramienta
+
+```text
+OBJETIVO:
+RESULTADO ESPERADO:
+¿NECESITA INFORMACIÓN ACTUAL?:
+¿NECESITA FUENTES CONTROLADAS?:
+¿NECESITA DATOS DE WORKSPACE?:
+¿NECESITA CREAR O MODIFICAR ALGO?:
+¿ES RECURRENTE?:
+CAPACIDAD ELEGIDA:
+POR QUÉ:
+```
+
+## 2. Ficha de Gem
+
+```text
+NOMBRE:
+ROL:
+OBJETIVO:
+USUARIOS:
+CONTEXTO AUTORIZADO:
+PROCESO:
+FORMATO:
+RESTRICCIONES:
+CRITERIOS DE CALIDAD:
+ESCALAMIENTO:
+CASOS DE PRUEBA:
+RESPONSABLE:
+FECHA DE REVISIÓN:
+```
+
+## 3. Brief de Deep Research
+
+```text
+PREGUNTA:
+DECISIÓN QUE APOYA:
+ALCANCE:
+FECHA DE CORTE:
+FUENTES OBLIGATORIAS:
+FUENTES EXCLUIDAS:
+CUENTAS O ARCHIVOS AUTORIZADOS:
+FORMATO DEL INFORME:
+CRITERIOS DE EVIDENCIA:
+CONTRADICCIONES A BUSCAR:
+INCERTIDUMBRES A DECLARAR:
+```
+
+## 4. Acción programada
+
+```text
+OBJETIVO:
+FRECUENCIA:
+HORA Y ZONA HORARIA:
+FUENTES:
+CRITERIO DE RELEVANCIA:
+CONDICIÓN DE SILENCIO:
+FORMATO:
+DESTINATARIO:
+ACCIÓN PERMITIDA:
+APROBACIÓN NECESARIA:
+CONDICIÓN DE PARADA:
+PROCEDIMIENTO DE DESACTIVACIÓN:
+```
+
+## 5. Diseño de notebook
+
+```text
+NOMBRE:
+OBJETIVO:
+AUDIENCIA:
+PREGUNTA CENTRAL:
+FECHA DE CORTE:
+CRITERIOS DE INCLUSIÓN:
+CRITERIOS DE EXCLUSIÓN:
+TIPOS DE FUENTE:
+DERECHOS DE USO:
+ARTEFACTOS NECESARIOS:
+RESPONSABLE DEL CORPUS:
+FRECUENCIA DE AUDITORÍA:
+```
+
+## 6. Inventario de fuentes
+
+| Fuente | Tipo | Autor | Fecha | Versión | Estado | Derecho de uso | Rol en el corpus |
+|---|---|---|---|---|---|---|---|
+
+## 7. Tabla de evidencia
+
+| Afirmación | Fuente | Cita | Fecha | Confianza | Contradicción | Decisión |
+|---|---|---|---|---|---|---|
+
+## 8. Evaluación de artefactos
+
+| Artefacto | Fidelidad | Cobertura | Claridad | Audiencia | Riesgos | Corrección |
+|---|---:|---:|---:|---:|---|---|
