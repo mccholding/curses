@@ -27,8 +27,9 @@ Prerrequisitos recomendados:
 3. Una ruta de plataforma, recomendada pero no obligatoria:
    - [03A · Cómo usar ChatGPT](../03a-como-usar-chatgpt/README.md)
    - [03B · Cómo usar Claude](../03-como-usar-claude/README.md)
+   - [03C · Cómo usar Gemini y NotebookLM](../03c-gemini-notebooklm/README.md)
 
-El curso 01 aporta Prompt, Context y Loop Engineering. El curso 02 aporta el mapa tecnológico. Los cursos 03A y 03B enseñan a implementar esos principios dentro de ChatGPT o Claude. Este curso integra las piezas en un sistema empresarial funcional y transferible entre modelos.
+El curso 01 aporta Prompt, Context y Loop Engineering. El curso 02 aporta el mapa tecnológico. Los cursos 03A, 03B y 03C enseñan a implementar esos principios dentro de ChatGPT, Claude o el ecosistema Google. Este curso integra las piezas en un sistema empresarial funcional y transferible entre modelos.
 
 ## Audiencia
 
@@ -53,7 +54,7 @@ El curso 01 aporta Prompt, Context y Loop Engineering. El curso 02 aporta el map
 
 Ambas rutas comparten arquitectura, políticas, pruebas, evaluaciones, controles humanos y estándares de calidad.
 
-El alumno puede utilizar modelos de OpenAI, Anthropic, Google u otros proveedores. Los ejemplos pueden mostrar ChatGPT, Claude, Codex o Claude Code, pero la arquitectura no debe quedar bloqueada a una marca.
+El alumno puede utilizar modelos de OpenAI, Anthropic, Google u otros proveedores. Los ejemplos pueden mostrar ChatGPT, Claude, Gemini, Codex o Claude Code, pero la arquitectura no debe quedar bloqueada a una marca.
 
 ## Resultado final
 
