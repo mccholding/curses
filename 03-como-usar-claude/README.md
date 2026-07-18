@@ -6,15 +6,15 @@ Curso organizado como una ruta progresiva para aprender el ecosistema Claude sin
 
 Este es el **tercer curso** de la ruta recomendada:
 
-1. **01 · Cómo comunicarte con la IA — Prompting**
-2. **02 · Fundamentos de trabajar con IA**
+1. [**01 · Cómo comunicarnos y trabajar con la IA**](../01-comunicarnos-trabajar-con-ia/README.md)
+2. [**02 · Fundamentos de trabajar con IA**](../02-fundamentos-trabajar-con-ia/README.md)
 3. **03 · Cómo usar Claude: de cero a avanzado**
 
-El curso 01 enseña a dar buenas instrucciones. El curso 02 explica el mapa general de herramientas y conceptos. Este curso 03 se concentra en **dominar Claude como plataforma de trabajo**.
+El curso 01 enseña Prompt Engineering, Context Engineering y Loop Engineering. El curso 02 explica el mapa general de tecnologías y niveles de autonomía. Este curso 03 se concentra en **implementar esos principios dentro de Claude como plataforma de trabajo**.
 
 ## Decisión estructural
 
-El curso anterior intentaba cubrir Chat, Proyectos, Claude Code, agentes, Skills, MCP y conectores en 8–10 horas. Eso mezclaba dos audiencias con necesidades distintas.
+El curso anterior intentaba cubrir Chat, Projects, Claude Code, agentes, Skills, MCP y conectores en 8–10 horas. Eso mezclaba dos audiencias con necesidades distintas.
 
 La nueva versión se divide en dos rutas:
 
@@ -24,8 +24,8 @@ Para personas de operaciones, administración, educación, marketing, consultor�
 
 - **Duración sugerida:** 16 horas.
 - **Formato:** 8 módulos progresivos con práctica y entregables.
-- **Prerequisito:** haber usado un chat de IA y conocer prompting básico.
-- **Resultado:** diseñar un espacio de trabajo completo en Claude, con proyectos, archivos, artifacts, investigación, conectores, delegación y controles humanos.
+- **Prerrequisito:** comprender cómo diseñar instrucciones, contexto, fuentes, verificación y ciclos de trabajo sencillos.
+- **Resultado:** diseñar un espacio de trabajo completo en Claude, con Projects, archivos, Artifacts, investigación, conectores, delegación y controles humanos.
 
 [Ver la Ruta profesional](./ruta-profesional/README.md)
 
@@ -34,10 +34,18 @@ Para personas de operaciones, administración, educación, marketing, consultor�
 Para desarrolladores y perfiles técnicos con conocimientos básicos de terminal y Git.
 
 - **Duración sugerida:** 12 módulos de 2–3 horas más tareas.
-- **Prerequisito:** completar la Ruta A o demostrar dominio equivalente de Claude.
+- **Prerrequisito:** completar la Ruta A o demostrar dominio equivalente de Claude.
 - **Resultado:** personalizar Claude Code con CLAUDE.md, reglas, Skills, MCP, subagentes, hooks, plugins, CI/CD y automatización.
 
 [Ver la Especialización Claude Code](./especializacion-claude-code/README.md)
+
+## Relación con las tres ingenierías
+
+| Curso 01 | Aplicación en Claude |
+|---|---|
+| Prompt Engineering | instrucciones, prompts y criterios de aceptación |
+| Context Engineering | Projects, archivos, conocimiento, conversaciones y CLAUDE.md |
+| Loop Engineering | delegación, tareas, agentes, hooks, verificación y automatización |
 
 ## Estructura del repositorio
 
@@ -63,12 +71,12 @@ Para desarrolladores y perfiles técnicos con conocimientos básicos de terminal
 
 Cada módulo debe incluir:
 
-1. Objetivos observables.
-2. Una demostración corta.
-3. Una práctica guiada.
-4. Un caso real por audiencia.
-5. Un entregable verificable.
-6. Una evaluación o reflexión de cierre.
+1. objetivos observables;
+2. una demostración corta;
+3. una práctica guiada;
+4. un caso real por audiencia;
+5. un entregable verificable;
+6. una evaluación o reflexión de cierre.
 
 ## Qué se conserva del curso anterior
 
