@@ -56,11 +56,12 @@ Módulo 7: integrar y presentar
 
 ## Límites del curso
 
-Este curso no enseña programación, APIs, MCP, Claude Code ni construcción técnica de agentes. Enseña la lógica necesaria para comprender y utilizar esas herramientas en los cursos siguientes.
+Este curso no enseña programación, APIs, MCP, Codex, Claude Code ni construcción técnica de agentes. Enseña la lógica necesaria para comprender y utilizar esas herramientas en los cursos siguientes.
 
 ## Conexión con la ruta
 
 - **Curso 01:** diseña la comunicación, el contexto y el proceso.
-- **Curso 02:** explica LLM, RAG, MCP, Skills, agentes y otras piezas.
-- **Curso 03:** implementa estos principios dentro de Claude.
+- **Curso 02:** explica LLM, RAG, MCP, Skills, plugins, agentes y otras piezas.
+- **Curso 03A o 03B:** implementa estos principios dentro de ChatGPT, Claude o ambas plataformas.
 - **Curso 04:** los aplica a productividad y procesos empresariales.
+- **Curso 05:** los convierte en sistemas agénticos funcionales.
