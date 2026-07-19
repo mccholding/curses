@@ -1,4 +1,5 @@
 # 🔵 NIVEL 2 — CONECTAR Y POTENCIAR
+
 *Darle a la IA acceso a tus herramientas y tus métodos de trabajo.*
 
 ## 2.1 MCP: el conector universal
@@ -21,10 +22,14 @@ Antes del USB-C, cada aparato tenía su propio cable. Un caos. Antes de MCP pasa
                     └──────────────┘
 ```
 
+
+
 ### Vocabulario clave
 
 - **Servidor MCP:** cada conexión individual (el servidor MCP de Gmail, el de Canva...). En las apps de consumo suelen llamarse **conectores**.
 - Tú decides **qué conectar y con qué permisos**. La IA solo toca lo que tú le conectas.
+
+
 
 ### Ejemplo práctico
 
@@ -47,10 +52,13 @@ Sin MCP, esto sería copiar y pegar correo por correo. Con MCP, es una sola inst
 >
 > ✅ **Buena práctica:** conecta por necesidad real, con permisos mínimos, y empieza con acceso de solo lectura cuando sea posible.
 
-
 ---
 
+
+
 ## 2.2 Skills: los manuales de procedimientos
+
+
 
 ### La explicación sencilla
 
@@ -84,12 +92,16 @@ Cuando el usuario pida el reporte semanal:
 4. Tono directo, máximo 2 páginas
 ```
 
+
+
 ### Por qué es tan poderoso
 
 - **Consistencia:** la tarea sale igual todas las veces, sin repetir instrucciones
 - **Conocimiento acumulado:** capturas la experiencia del equipo en archivos reutilizables
 - **Se comparten:** tu Skill la puede usar todo tu equipo
 - **Se activan solas:** la IA detecta cuándo aplican y las usa automáticamente
+
+
 
 ### El antes y el después
 
@@ -108,10 +120,13 @@ CON skill:  "Hazme el reporte semanal con estos datos."  →  perfecto a la prim
 >
 > ✅ **Buena práctica:** una skill = una tarea. Nombre claro y una descripción que diga exactamente cuándo debe activarse.
 
-
 ---
 
+
+
 ## 2.3 Plugins: paquetes de capacidades
+
+
 
 ### La explicación sencilla
 
@@ -122,6 +137,8 @@ Un **plugin** es un **paquete instalable** que puede agrupar varias cosas a la v
 - Una **Skill** = una receta
 - Un **servidor MCP** = un electrodoméstico conectado
 - Un **plugin** = el kit completo de cocina italiana: recetas + utensilios + ingredientes en una caja
+
+
 
 ### Ejemplo
 
@@ -138,10 +155,13 @@ Un plugin "asistente-de-marketing" podría incluir al instalarse:
 >
 > ✅ **Buena práctica:** instala lo que vas a usar esta semana; desinstala lo que no usaste este mes.
 
-
 ---
 
+
+
 ## 2.4 API: qué es y por qué la mencionan tanto
+
+
 
 ### La explicación sencilla
 
@@ -152,13 +172,15 @@ Un plugin "asistente-de-marketing" podría incluir al instalarse:
 - **El chat (Claude.ai)** = comer en el restaurante: mesa puesta, mesero, menú, ambiente
 - **La API** = la cocina con servicio a domicilio: cualquier negocio puede pedirle platillos a la cocina e integrarlos en su propia operación
 
+
+
 ### Por qué te importa aunque no programes
 
 1. **Explica el ecosistema:** cuando una app dice "con IA integrada", casi siempre está usando la API de algún LLM por detrás.
 2. **Explica los tokens como costo:** la API cobra por tokens procesados. Por eso todo el mundo habla de tokens.
 3. **Abre posibilidades futuras:** si algún día tu empresa quiere IA dentro de sus propios sistemas, el camino es la API (y no necesitas ser tú quien programe — necesitas saber que existe para pedirla).
 
-> 📖 Documentación oficial: https://docs.claude.com/en/api/overview
+> 📖 Documentación oficial: [https://docs.claude.com/en/api/overview](https://docs.claude.com/en/api/overview)
 
 > 🎯 **Hazlo tú ahora (3-5 min):** identifica 2 aplicaciones que ya uses que anuncien "IA integrada" y pregúntate: ¿qué modelo habrá detrás? ¿qué le estarán enviando? Empezarás a ver el ecosistema con rayos X.
 >
@@ -166,12 +188,15 @@ Un plugin "asistente-de-marketing" podría incluir al instalarse:
 >
 > ✅ **Buena práctica:** cuando hables con proveedores o con tu equipo técnico, pregunta siempre: "¿qué modelo usa por detrás y qué pasa con nuestros datos?"
 
-
 ---
+
+
 
 ### ✅ Checkpoint del Nivel 2
 
 Tu "empleado" ya tiene: acceso a tus herramientas (**MCP**), tus manuales de procedimientos (**Skills**), kits completos instalables (**plugins**) y entiendes cómo la IA se integra en cualquier software (**API**). Ahora viene el gran salto mental: **dejar de pedirle cosas y empezar a delegarle trabajo.**
 
 ---
+
 ---
+
