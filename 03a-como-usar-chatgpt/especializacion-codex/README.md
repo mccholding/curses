@@ -2,11 +2,9 @@
 
 ## Propósito
 
-Usar Codex como agente técnico para comprender repositorios, modificar código, ejecutar comandos y pruebas, revisar cambios, automatizar flujos y entregar software con evidencia.
+Usar Codex como agente técnico para comprender repositorios, planificar cambios, modificar código, ejecutar pruebas, revisar diffs y entregar software con evidencia.
 
-Codex no se enseña como autocompletado. Se enseña como un colaborador que necesita contexto, límites, herramientas, verificación y revisión humana.
-
-**Fecha de corte del mapa:** 18 de julio de 2026.
+Codex no se enseña como autocompletado ni como una introducción general a agentes. El Curso 02 ya aporta contexto, herramientas, loops, permisos y automatización como conceptos.
 
 ## Audiencia
 
@@ -14,176 +12,83 @@ Codex no se enseña como autocompletado. Se enseña como un colaborador que nece
 - analistas técnicos;
 - automatizadores;
 - equipos de producto e ingeniería;
-- personas con conocimientos básicos de terminal y Git.
+- personas con conocimientos básicos de terminal, Git y código.
 
 ## Prerrequisitos
 
-- completar la Ruta profesional de ChatGPT o demostrar dominio equivalente;
-- entender Prompt, Context y Loop Engineering;
+- completar `02 · Fundamentos de trabajar con IA` o demostrar dominio equivalente;
 - usar Git;
 - leer código básico;
-- ejecutar comandos en terminal;
+- ejecutar comandos;
 - comprender pruebas y control de versiones.
 
-## Duración sugerida
+La Ruta profesional de ChatGPT es útil, pero no obligatoria cuando la persona ya domina Projects, archivos y permisos.
 
-10 módulos de 2–3 horas más proyecto final.
+## Organización
 
-## Mapa
+### Nivelación opcional
+
+Para quien no tenga experiencia suficiente con agentes técnicos:
+
+1. entorno, permisos, secretos y repositorio de práctica;
+2. contexto durable, documentación y definición de terminado.
+
+Estos temas deben impartirse como puente breve, no como repetición extensa del Curso 02.
+
+### Núcleo de ocho módulos
 
 | Módulo | Tema | Entregable |
 |---:|---|---|
-| 0 | Entorno, permisos y seguridad | repositorio de práctica y reglas |
-| 1 | Contexto durable del repositorio | mapa de arquitectura y convenciones |
-| 2 | Comprender una base de código | informe de flujos y dependencias |
-| 3 | Planificar cambios | plan con archivos, riesgos y pruebas |
-| 4 | Implementar y refactorizar | cambio pequeño con evidencia |
-| 5 | Pruebas, debugging y verificación | suite o corrección reproducible |
-| 6 | Git, GitHub y revisión | pull request revisable |
-| 7 | Plugins, skills, MCP y herramientas | flujo técnico reutilizable |
-| 8 | Automatizaciones y trabajo remoto | rutina repetible supervisada |
-| 9 | Seguridad, evals y proyecto final | entrega técnica documentada |
+| 1 | Comprender una base de código | mapa de flujos y dependencias |
+| 2 | Planificar cambios | plan con archivos, riesgos y pruebas |
+| 3 | Implementar y refactorizar | cambio pequeño y revisable |
+| 4 | Pruebas y debugging | corrección reproducible |
+| 5 | Git, GitHub y revisión | pull request con evidencia |
+| 6 | Skills, plugins, MCP y herramientas | flujo técnico reutilizable |
+| 7 | Automatización y trabajo remoto | rutina supervisada |
+| 8 | Seguridad, evals y proyecto final | entrega técnica documentada |
 
-## Principios
+## Duración sugerida
 
-1. **Leer antes de editar.** Entender estructura, instrucciones y pruebas.
-2. **Cambios pequeños.** Reducir superficie de error.
-3. **Plan visible.** Declarar archivos, supuestos y validación.
-4. **Pruebas como contrato.** No confiar en una explicación sin ejecución.
-5. **Permiso mínimo.** Limitar carpetas, terminal, red y credenciales.
-6. **No ocultar fallos.** Reportar pruebas no ejecutadas y limitaciones.
-7. **Revisión humana.** El equipo conserva responsabilidad sobre merges y despliegues.
-
-## Contenido por módulo
-
-### Módulo 0 · Entorno y límites
-
-- ChatGPT de escritorio y Codex;
-- carpetas y repositorios locales;
-- terminal;
-- permisos;
-- secretos;
-- ramas de práctica;
-- comandos permitidos y prohibidos.
-
-### Módulo 1 · Contexto durable
-
-- README y documentación;
-- convenciones;
-- comandos de instalación y pruebas;
-- decisiones de arquitectura;
-- definición de terminado;
-- contexto que debe mantenerse actualizado.
-
-### Módulo 2 · Comprensión de repositorios
-
-- localizar puntos de entrada;
-- trazar solicitudes y datos;
-- mapear módulos;
-- encontrar pruebas;
-- identificar deuda y riesgos;
-- explicar antes de modificar.
-
-### Módulo 3 · Planificación
-
-Un plan debe incluir:
-
-```text
-objetivo
-archivos afectados
-dependencias
-supuestos
-riesgos
-migraciones
-pruebas
-rollback
-criterios de aceptación
-```
-
-### Módulo 4 · Implementación
-
-- cambios localizados;
-- refactor sin alterar comportamiento;
-- documentación;
-- estilo del repositorio;
-- manejo de errores;
-- revisión del diff.
-
-### Módulo 5 · Pruebas y debugging
-
-- reproducir antes de corregir;
-- prueba que falla;
-- hipótesis;
-- cambio mínimo;
-- regresión;
-- pruebas unitarias, integración y flujo;
-- evidencia de ejecución.
-
-### Módulo 6 · GitHub y revisión
-
-- issues;
-- ramas;
-- commits;
-- pull requests;
-- revisión de diffs;
-- comentarios;
-- CI;
-- preparación para revisión humana.
-
-### Módulo 7 · Plugins, skills, MCP y herramientas
-
-- guardar flujos repetibles;
-- conectar servicios autorizados;
-- crear comandos o herramientas componibles;
-- documentar entradas, salidas y errores;
-- aislar acciones destructivas;
-- probar permisos.
-
-### Módulo 8 · Automatizaciones
-
-- triage de errores;
-- actualización de documentación;
-- revisión periódica de dependencias;
-- preparación de reportes;
-- tareas remotas;
-- objetivos durables;
-- condiciones de parada y notificación.
-
-### Módulo 9 · Seguridad y proyecto final
-
-- análisis en repositorios autorizados;
-- protección de secretos;
-- revisión de dependencias;
-- no ejecutar código no confiable sin aislamiento;
-- evidencia de pruebas;
-- manual de operación;
-- revisión humana antes de merge o despliegue.
+- nivelación opcional: 3–4 horas;
+- núcleo: ocho módulos de 2–3 horas;
+- proyecto integrador.
 
 ## Proyecto final
 
-Completar una mejora real en un repositorio con:
+El alumno entrega un cambio de software que incluya:
 
-- issue o brief;
-- mapa del repositorio;
+- comprensión documentada del repositorio;
 - plan aprobado;
-- implementación;
-- pruebas;
-- revisión del diff;
-- documentación;
+- rama de trabajo;
+- cambio acotado;
+- pruebas ejecutadas;
+- diff revisado;
 - pull request;
-- análisis de riesgos;
-- retrospectiva.
+- evaluación de seguridad;
+- limitaciones y pruebas no ejecutadas;
+- instrucciones para mantenimiento o reversión.
 
-## Evaluación
+## Principios
 
-| Componente | Peso |
-|---|---:|
-| Comprensión y planificación | 20 % |
-| Calidad del cambio | 25 % |
-| Pruebas y verificación | 25 % |
-| Git y documentación | 15 % |
-| Seguridad y límites | 15 % |
+1. Leer antes de editar.
+2. Mantener cambios pequeños.
+3. Mostrar el plan.
+4. Tratar las pruebas como contrato.
+5. Aplicar permiso mínimo.
+6. No ocultar fallos.
+7. Conservar revisión humana sobre merges y despliegues.
+8. Preferir evidencia ejecutada a explicaciones convincentes.
 
-## Desarrollo pendiente
+## Qué no debe repetir
 
-Este archivo define la especialización. Para impartirla se debe construir un repositorio de práctica con errores deliberados, issues, pruebas, CI y soluciones de referencia. No se debe practicar por primera vez sobre un sistema crítico.
+No dedicar módulos completos a:
+
+- qué es un agente;
+- qué es un loop;
+- qué es MCP;
+- por qué el contexto importa;
+- cómo funciona una tarea programada;
+- introducción general a terminal.
+
+El valor diferencial de Codex comienza en la comprensión del repositorio y termina en una entrega técnica verificable.
