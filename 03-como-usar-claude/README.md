@@ -1,100 +1,100 @@
-# 03B · Cómo usar Claude: de cero a avanzado
+# 03B · Claude aplicado
 
-Curso organizado como una ruta progresiva para aprender el ecosistema Claude sin mezclar públicos ni niveles técnicos.
+## Artifacts, Projects, conectores y Cowork
+
+Este curso parte de `02 · Fundamentos de trabajar con IA`. No vuelve a explicar desde cero modelos, contexto, MCP, agentes, loops, subagentes o tareas programadas.
+
+Su objetivo es aplicar esos conceptos dentro de las capacidades diferenciales de Claude.
 
 ## Lugar en la ruta
 
-Claude es una ruta de plataforma paralela a ChatGPT:
+```text
+02 · Fundamentos de trabajar con IA
+              ↓
+03B · Claude aplicado
+              ↓
+Claude Code, Curso 05 o proyecto profesional
+```
 
-1. [**01 · Cómo comunicarnos y trabajar con la IA**](../01-comunicarnos-trabajar-con-ia/README.md)
-2. [**02 · Fundamentos de trabajar con IA**](../02-fundamentos-trabajar-con-ia/README.md)
-3. Elegir una o ambas plataformas:
-   - [**03A · Cómo usar ChatGPT**](../03a-como-usar-chatgpt/README.md)
-   - **03B · Cómo usar Claude**
+ChatGPT, Claude y Gemini son rutas paralelas. Una persona elige según su ecosistema y no necesita completar las tres.
 
-El curso 01 enseña Prompt Engineering, Context Engineering y Loop Engineering. El curso 02 explica el mapa general de tecnologías y niveles de autonomía. Este curso aplica esos principios dentro de Claude como plataforma de trabajo.
+## Ruta profesional compacta
 
-ChatGPT y Claude no son cursos consecutivos obligatorios. Cada persona puede elegir una plataforma, comparar ambas o completar las dos.
+Para operaciones, administración, educación, marketing, consultoría, liderazgo, análisis y creación de contenido.
 
-## Decisión estructural
+- **Duración sugerida:** 8 horas.
+- **Formato:** cuatro bloques de dos horas.
+- **Programación:** no requerida.
+- **Práctica:** mínimo 70 %.
+- **Resultado:** convertir una tarea real en un sistema de trabajo con Artifact, Project, conexión y delegación supervisada.
 
-El curso anterior intentaba cubrir Chat, Projects, Claude Code, agentes, Skills, MCP y conectores en 8–10 horas. Eso mezclaba dos audiencias con necesidades distintas.
+### Cuatro bloques diferenciales
 
-La nueva versión se divide en dos rutas:
+1. **Artifacts:** transformar una respuesta en un documento, visualización, prototipo o herramienta reutilizable.
+2. **Projects y conocimiento:** organizar instrucciones persistentes, fuentes, conversaciones y continuidad.
+3. **Conectores y permisos:** consultar herramientas reales mediante acceso mínimo, trazabilidad y aprobación.
+4. **Cowork y proyecto final:** delegar trabajo de oficina sobre carpetas y entregables, con controles humanos.
 
-### Ruta A · Claude para profesionales
+[Ver Ruta profesional](./ruta-profesional/README.md)
 
-Para personas de operaciones, administración, educación, marketing, consultoría, liderazgo, análisis y creación de contenido.
+## Especialización Claude Code
 
-- **Duración sugerida:** 16 horas.
-- **Formato:** 8 módulos progresivos con práctica y entregables.
-- **Prerrequisito:** comprender cómo diseñar instrucciones, contexto, fuentes, verificación y ciclos de trabajo sencillos.
-- **Resultado:** diseñar un espacio de trabajo completo en Claude, con Projects, archivos, Artifacts, investigación, conectores, delegación y controles humanos.
+Para desarrolladores, analistas técnicos, DevOps, automatizadores y líderes técnicos.
 
-[Ver la Ruta profesional](./ruta-profesional/README.md)
+El Curso 02 ya introduce Claude Code, carpetas, `CLAUDE.md`, terminal, Skills, MCP, subagentes, hooks y loops. Por eso la especialización debe comenzar en la aplicación avanzada:
 
-### Ruta B · Especialización Claude Code
+- configuración compartida;
+- Skills mantenibles;
+- MCP real;
+- subagentes, agent teams y worktrees;
+- plugins;
+- ejecución headless;
+- CI/CD y Agent SDK;
+- hooks empresariales;
+- Git y operación de equipo;
+- troubleshooting y runbooks.
 
-Para desarrolladores y perfiles técnicos con conocimientos básicos de terminal y Git.
+[Ver Especialización Claude Code](./especializacion-claude-code/README.md)
 
-- **Duración sugerida:** 12 módulos de 2–3 horas más tareas.
-- **Prerrequisito:** completar la Ruta A o demostrar dominio equivalente de Claude.
-- **Resultado:** personalizar Claude Code con CLAUDE.md, reglas, Skills, MCP, subagentes, hooks, plugins, CI/CD y automatización.
+## Qué no debe repetir
 
-[Ver la Especialización Claude Code](./especializacion-claude-code/README.md)
+La ruta profesional no dedica módulos a:
 
-## Relación con las tres ingenierías
+- qué es un LLM;
+- tokens o ventanas de contexto;
+- prompt engineering básico;
+- qué es RAG;
+- definición de MCP;
+- definición de agente o subagente;
+- explicación general del loop;
+- introducción a tareas programadas.
 
-| Curso 01 | Aplicación en Claude |
-|---|---|
-| Prompt Engineering | instrucciones, prompts y criterios de aceptación |
-| Context Engineering | Projects, archivos, conocimiento, conversaciones y CLAUDE.md |
-| Loop Engineering | delegación, tareas, agentes, hooks, verificación y automatización |
+Cuando sea necesario, se hace una conexión de máximo diez minutos con el Curso 02 y se pasa a la práctica.
 
-## Relación con ChatGPT
+## Proyecto transversal
 
-Los cursos no deben plantearse como una competencia de marcas.
-
-| Capacidad | Claude | ChatGPT |
-|---|---|---|
-| Contexto de largo plazo | Projects y conocimiento | Projects y memoria |
-| Entregables | Artifacts | Canvas y ChatGPT Work |
-| Especialización sin código | Projects, Skills y configuraciones | GPTs |
-| Datos y acciones | Connectors y MCP | Plugins y apps |
-| Trabajo recurrente | Tareas y automatización | Tareas programadas y Work |
-| Desarrollo | Claude Code | Codex |
+```text
+Tarea profesional real
+→ Artifact útil
+→ Project con fuentes y reglas
+→ conector de bajo riesgo
+→ encargo en Cowork
+→ revisión y manual de continuidad
+```
 
 ## Estructura del repositorio
 
-```text
-03-como-usar-claude/
-├── README.md
-├── 00-mapa-del-curso.md
-├── ruta-profesional/
-│   ├── README.md
-│   ├── 01-ecosistema-chat-y-archivos.md
-│   ├── 02-artifacts-proyectos-y-conocimiento.md
-│   ├── 03-conectores-delegacion-y-automatizacion.md
-│   └── 04-equipos-gobernanza-y-proyecto-final.md
-├── especializacion-claude-code/
-│   ├── README.md
-│   └── curso-claude-code.md
-└── material-instructor/
-    ├── plan-de-ampliacion.md
-    └── evaluacion-y-rubricas.md
-```
+1. [Mapa del curso](./00-mapa-del-curso.md)
+2. [Ruta profesional](./ruta-profesional/README.md)
+3. [Ecosistema, Chat y archivos](./ruta-profesional/01-ecosistema-chat-y-archivos.md)
+4. [Artifacts, Projects y conocimiento](./ruta-profesional/02-artifacts-proyectos-y-conocimiento.md)
+5. [Conectores, delegación y automatización](./ruta-profesional/03-conectores-delegacion-y-automatizacion.md)
+6. [Equipos, gobernanza y proyecto final](./ruta-profesional/04-equipos-gobernanza-y-proyecto-final.md)
+7. [Especialización Claude Code](./especializacion-claude-code/README.md)
+8. [Evaluación y rúbricas](./material-instructor/evaluacion-y-rubricas.md)
 
-## Principio pedagógico
-
-Cada módulo debe incluir:
-
-1. objetivos observables;
-2. una demostración corta;
-3. una práctica guiada;
-4. un caso real por audiencia;
-5. un entregable verificable;
-6. una evaluación o reflexión de cierre.
+Los archivos existentes conservan explicaciones y ejemplos, pero el instructor debe seleccionar únicamente las secciones necesarias para los cuatro bloques aplicados.
 
 ## Material anterior
 
-El material anterior sigue siendo útil como banco de explicaciones, ejemplos y prompts, pero dejó de ser el programa principal. Se conserva en [`backups/claude/`](../backups/claude/README.md).
+El banco histórico se conserva en [`backups/claude/`](../backups/claude/README.md).
