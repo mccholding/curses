@@ -1,78 +1,84 @@
-# Ruta B · Especialización Claude Code
+# Especialización · Claude Code
 
 ## Propósito
 
-Formar a desarrolladores y perfiles técnicos para trabajar con Claude Code de manera productiva, segura y compartible dentro de un equipo.
+Formar perfiles técnicos para configurar, compartir, automatizar y operar Claude Code dentro de repositorios y equipos.
 
-Esta especialización reemplaza el antiguo módulo corto de Claude Code del curso general. El tema tiene suficiente profundidad para ser un curso completo.
+El Curso 02 ya introduce Claude Code, terminal, carpetas, `CLAUDE.md`, MCP, Skills, subagentes, hooks y loops. Esta especialización no debe repetir esa introducción como núcleo.
 
 ## Audiencia
 
-- Desarrolladores con conocimientos básicos de terminal y Git.
-- Analistas o científicos de datos que trabajan con repositorios y scripts.
-- DevOps, SRE y líderes técnicos.
-- Product managers técnicos que revisan repositorios y flujos de entrega.
+- desarrolladores;
+- analistas y científicos de datos;
+- DevOps y SRE;
+- automatizadores;
+- líderes técnicos y product managers técnicos.
 
 ## Prerrequisitos
 
-- Terminal y Git básicos.
-- Un repositorio de práctica.
-- Conocimiento general de Claude, contexto, MCP y agentes.
-- Idealmente completar la Ruta profesional o una nivelación equivalente.
+- completar `02 · Fundamentos de trabajar con IA` o demostrar dominio equivalente;
+- terminal y Git básicos;
+- un repositorio de práctica;
+- lectura de código y pruebas básicas.
+
+## Nivelación opcional
+
+Para participantes que no hayan practicado suficientemente el Nivel 4 del Curso 02:
+
+1. operación segura, permisos y sesiones;
+2. `CLAUDE.md`, contexto durable y comandos esenciales.
+
+La nivelación debe ser breve y práctica.
+
+## Núcleo avanzado
+
+| Módulo | Tema | Resultado |
+|---:|---|---|
+| 1 | Settings y configuración compartida | política de configuración del repositorio |
+| 2 | Skills mantenibles | Skill de dominio con pruebas |
+| 3 | MCP en un entorno real | herramienta conectada y limitada |
+| 4 | Subagentes, agent teams y worktrees | estrategia de división del trabajo |
+| 5 | Plugins y distribución | paquete instalable para el equipo |
+| 6 | Ejecución headless y Agent SDK | flujo automatizado supervisado |
+| 7 | CI/CD y Git | automatización integrada al ciclo de entrega |
+| 8 | Hooks empresariales y seguridad | controles técnicos y auditoría |
+| 9 | Tareas y loops operativos | rutina con límites, estado y alertas |
+| 10 | Troubleshooting y runbook | guía interna de operación y recuperación |
 
 ## Duración
 
-- 12 módulos.
-- Una sesión de 2–3 horas por módulo.
-- Práctica y tarea evaluable en cada módulo.
-- Proyecto integrador demostrable.
-
-## Curso principal
-
-[Curso completo de Claude Code](./curso-claude-code.md)
-
-## Organización de los 12 módulos
-
-### Bloque 1 · Operación segura
-
-1. Fundamentos, instalación y loop agéntico.
-2. Uso diario, CLAUDE.md, permisos, sesiones y contexto.
-
-### Bloque 2 · Personalización
-
-3. Settings, comandos, estilos y hooks iniciales.
-4. Skills y conocimiento reutilizable.
-
-### Bloque 3 · Conexión y orquestación
-
-5. MCP.
-6. Subagentes, agent teams y worktrees.
-7. Plugins y marketplaces.
-
-### Bloque 4 · Automatización
-
-8. Headless, CI/CD y Agent SDK.
-9. Hooks empresariales y gobernanza.
-10. Tareas programadas y loops.
-
-### Bloque 5 · Flujo profesional
-
-11. Git y GitLab.
-12. Troubleshooting y runbook interno.
+- nivelación opcional: 3–4 horas;
+- núcleo: diez módulos de 2–3 horas;
+- proyecto integrador.
 
 ## Proyecto integrador
 
-El alumno construye un asistente de equipo que combine:
+El alumno construye un asistente técnico de equipo con:
 
-- CLAUDE.md y reglas;
-- comandos y hooks;
+- configuración compartida;
+- reglas y permisos;
 - una Skill de dominio;
 - un servidor MCP;
-- un subagente;
-- un plugin instalable;
-- una automatización headless o de CI/CD;
-- controles de seguridad y documentación.
+- un subagente o equipo;
+- worktree o estrategia de aislamiento;
+- plugin distribuible;
+- automatización headless o CI/CD;
+- hooks de seguridad;
+- pruebas, logs y documentación;
+- runbook de incidentes y reversión.
 
-## Relación con la Ruta profesional
+## Qué no debe repetir
 
-La Ruta profesional enseña a elegir herramientas, preparar contexto, delegar y gobernar. La especialización convierte esos principios en configuración técnica dentro de repositorios y pipelines.
+No dedicar módulos completos a:
+
+- definición de agente, subagente o loop;
+- explicación conceptual de MCP o Skills;
+- instalación básica de terminal;
+- analogías introductorias;
+- tareas programadas como idea general.
+
+El valor comienza cuando esas piezas se configuran en un repositorio real y deben funcionar para más de una persona.
+
+## Curso principal
+
+El contenido detallado permanece en [Curso completo de Claude Code](./curso-claude-code.md). El instructor debe tratar sus primeras secciones como nivelación opcional y concentrar la evaluación en los módulos avanzados.
