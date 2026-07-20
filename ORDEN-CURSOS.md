@@ -19,7 +19,7 @@ Consulta también [`ARQUITECTURA-PORTAFOLIO.md`](./ARQUITECTURA-PORTAFOLIO.md).
 | **03C** | **Gemini y NotebookLM** | `03c-gemini-notebooklm/` | Trabajar con Google Workspace y especializarse en investigación documental fundamentada. |
 | **04** | **Radar de IA** | `04-radar-ia/` | Actualización mensual o trimestral sobre cambios relevantes, sin repetir fundamentos. |
 | **05** | **Empresa Potenciada por Agentes** | `05-empresa-potenciada-agentes/` | Construir, evaluar y operar un sistema agéntico empresarial real. |
-| **06** | **Pedagogía en la Era Agéntica** | En planificación | Especialización para diseño educativo, evaluación y pensamiento crítico. |
+| **06** | **Pedagogía en la Era Agéntica** | `06-pedagogia-era-agentica/` | Blueprint para diseño educativo, evaluación y pensamiento crítico. |
 | **07** | **Estrategia, Implementación y Gobernanza de IA** | `07-estrategia-implementacion-gobernanza-ia/` | Dirigir prioridades, inversión, riesgo, talento, pilotos, operación y escalamiento. |
 
 ## Recorrido recomendado
@@ -116,7 +116,9 @@ No debe volver a enseñar qué es un agente, MCP, Skill, subagente o loop. Debe 
 
 ## 06 · Pedagogía en la Era Agéntica
 
-Cuando se construya, debe concentrarse en:
+El blueprint inicial ya está disponible en `06-pedagogia-era-agentica/`.
+
+El futuro curso se concentrará en:
 
 - diseño de aprendizaje;
 - evaluación auténtica;
@@ -127,7 +129,7 @@ Cuando se construya, debe concentrarse en:
 - formación docente;
 - medición del aprendizaje.
 
-No debe convertirse en otra introducción general a la IA.
+No debe convertirse en otra introducción general a la IA. Aún faltan los módulos detallados, casos, plantillas, evaluación y material de instructor.
 
 ## 07 · Estrategia, Implementación y Gobernanza
 
