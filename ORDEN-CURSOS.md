@@ -1,110 +1,184 @@
-# Orden sugerido de los cursos
+# Orden y arquitectura del portafolio
 
-Esta ruta organiza los cursos desde el diseño de interacciones con inteligencia artificial hasta la implementación avanzada en equipos y organizaciones.
+Esta ruta organiza los cursos alrededor de una decisión central:
 
-| Orden | Curso | Estado / ubicación actual | Propósito dentro de la ruta |
+> **02 · Fundamentos de trabajar con IA es el curso insignia y el núcleo conceptual.**
+
+Los demás productos no deben repetir su mapa de LLM, tokens, contexto, modelos, RAG, MCP, Skills, agentes, herramientas, loops y niveles de autonomía. Deben aplicarlo, especializarlo o llevarlo a una decisión profesional concreta.
+
+Consulta también [`ARQUITECTURA-PORTAFOLIO.md`](./ARQUITECTURA-PORTAFOLIO.md).
+
+## Portafolio
+
+| Código | Curso o producto | Ubicación | Función |
 |---:|---|---|---|
-| **01** | **Cómo comunicarnos y trabajar con la IA** | `01-comunicarnos-trabajar-con-ia/` | Pasar de instrucciones claras a sistemas de trabajo mediante Prompt Engineering, Context Engineering y Loop Engineering. |
-| **02** | **Fundamentos de trabajar con IA** | `02-fundamentos-trabajar-con-ia/` | Entender el mapa completo: LLM, tokens, contexto, modelos, RAG, MCP, Skills, agentes, herramientas y loops. |
-| **03A** | **Cómo usar ChatGPT: de cero a avanzado** | `03a-como-usar-chatgpt/` | Dominar ChatGPT mediante una Ruta profesional y una Especialización Codex. |
-| **03B** | **Cómo usar Claude: de cero a avanzado** | `03-como-usar-claude/` | Dominar Claude mediante una Ruta profesional y una Especialización Claude Code. |
-| **03C** | **Cómo usar Gemini y NotebookLM** | `03c-gemini-notebooklm/` | Dominar Gemini para trabajo conectado y NotebookLM para investigación y aprendizaje fundamentados en fuentes. |
-| **04** | **IA en el Trabajo 2026** | Contenido actual en `AI_updates/` | Integrar herramientas y tendencias actuales de IA en productividad, automatización, desarrollo, datos y estrategia empresarial. |
-| **05** | **Construye una Empresa Potenciada por Agentes de IA** | `05-empresa-potenciada-agentes/` | Diseñar, construir, evaluar y operar un sistema de agentes para procesos empresariales reales. |
-| **06** | **Pedagogía en la Era Agéntica** | En planificación | Especialización para profesores, coordinadores y estudiantes. |
-| **07** | **Estrategia, Implementación y Gobernanza de IA** | `07-estrategia-implementacion-gobernanza-ia/` | Dirigir la adopción organizacional: prioridades, procesos, inversión, riesgo, talento, pilotos, operación y roadmap. |
+| **01** | **Prompt, Context y Loop Engineering** | `01-comunicarnos-trabajar-con-ia/` | Preparación opcional para principiantes o tres talleres independientes. |
+| **02** | **Fundamentos de trabajar con IA** | `02-fundamentos-trabajar-con-ia/` | Curso insignia: comprender el mapa completo y elegir el nivel correcto para cada proyecto. |
+| **03A** | **ChatGPT aplicado** | `03a-como-usar-chatgpt/` | Aplicar los fundamentos en Projects, investigación, entregables, GPTs, apps y tareas. |
+| **03B** | **Claude aplicado** | `03-como-usar-claude/` | Aplicar los fundamentos en Artifacts, Projects, conectores y Cowork. |
+| **03C** | **Gemini y NotebookLM** | `03c-gemini-notebooklm/` | Trabajar con Google Workspace y especializarse en investigación documental fundamentada. |
+| **04** | **Radar de IA** | `04-radar-ia/` | Actualización mensual o trimestral sobre cambios relevantes, sin repetir fundamentos. |
+| **05** | **Empresa Potenciada por Agentes** | `05-empresa-potenciada-agentes/` | Construir, evaluar y operar un sistema agéntico empresarial real. |
+| **06** | **Pedagogía en la Era Agéntica** | En planificación | Especialización para diseño educativo, evaluación y pensamiento crítico. |
+| **07** | **Estrategia, Implementación y Gobernanza de IA** | `07-estrategia-implementacion-gobernanza-ia/` | Dirigir prioridades, inversión, riesgo, talento, pilotos, operación y escalamiento. |
 
-## Arquitectura de la ruta
-
-### Tronco común
-
-1. **Diseñar la comunicación y el trabajo con IA:** qué pedir, qué contexto aportar y cómo verificar y repetir.
-2. **Comprender las piezas tecnológicas:** modelos, RAG, herramientas, conexiones y agentes.
-
-### Plataformas
-
-Después del tronco común, el alumno puede elegir una o varias rutas:
+## Recorrido recomendado
 
 ```text
-                  ┌── 03A · ChatGPT para profesionales
-                  │       └── Especialización Codex
-01 → 02 ──────────┼── 03B · Claude para profesionales
-                  │       └── Especialización Claude Code
-                  └── 03C · Gemini para profesionales
-                          └── NotebookLM para investigación y aprendizaje
+PREPARACIÓN OPCIONAL
+01 · Prompt, Context y Loop Engineering
+             ↓
+CURSO CENTRAL
+02 · Fundamentos de trabajar con IA
+             ↓
+ELEGIR UNA PLATAFORMA APLICADA
+03A ChatGPT · 03B Claude · 03C Gemini
+             ↓
+ELEGIR UNA ESPECIALIZACIÓN
+NotebookLM · Codex · Claude Code · Agentes · Estrategia · Pedagogía
+             ↓
+APLICAR EN UN PROYECTO REAL
 ```
 
-ChatGPT, Claude y Gemini son plataformas paralelas. NotebookLM es una especialización documental del ecosistema Google. Un alumno puede completar una sola ruta, comparar varias o tomar la especialización que corresponda a su trabajo.
+No todos los alumnos necesitan el Curso 01. Quien ya utiliza IA puede comenzar directamente con el Curso 02.
 
-### Aplicación y especializaciones
+Tampoco es necesario completar ChatGPT, Claude y Gemini. La plataforma se elige según el ecosistema de trabajo, el tipo de entregable y las herramientas de la organización.
 
-4. **Aplicar IA al trabajo profesional y empresarial.**
-5. **Construir sistemas agénticos funcionales.**
-6. **Elegir una especialización sectorial o de liderazgo.**
+## 01 · Preparación opcional
 
-No todos los alumnos necesitan completar todas las especializaciones.
+El Curso 01 se ofrece preferentemente como tres talleres:
 
-## Nota sobre el curso 01
+1. **Prompt Engineering:** diseñar instrucciones claras y verificables.
+2. **Context Engineering:** organizar información, fuentes, reglas y memoria.
+3. **Loop Engineering:** diseñar ejecución, verificación, corrección y parada.
 
-El curso se organiza en tres niveles de madurez:
+Puede impartirse completo a principiantes, pero no debe dictarse después del Curso 02 como si fuera contenido nuevo.
+
+## 02 · Curso insignia
+
+El Curso 02 conserva su estructura y contenido. Es la referencia conceptual para todos los cursos posteriores.
+
+Después del 02, los instructores pueden hacer recordatorios breves, pero no deben volver a dedicar módulos completos a explicar conceptos ya cubiertos.
+
+## 03A · ChatGPT aplicado
+
+- **Ruta profesional recomendada:** aproximadamente 12 horas en seis bloques aplicados.
+- **Núcleo diferencial:** Projects, memoria, Deep Research, Canvas, ChatGPT Work, GPTs, apps y tareas.
+- **Especialización Codex:** desarrollo con repositorios, pruebas, Git y automatización técnica.
+
+La ruta comienza en la configuración y la práctica; no vuelve a enseñar LLM, RAG, MCP o agentes desde cero.
+
+## 03B · Claude aplicado
+
+- **Ruta profesional recomendada:** aproximadamente 8 horas en cuatro bloques.
+- **Núcleo diferencial:** Artifacts, Projects, conectores y Cowork.
+- **Especialización Claude Code:** Skills, MCP, subagentes, hooks, worktrees, ejecución headless, CI/CD y operación de equipo.
+
+Los fundamentos de Claude Code incluidos en el Curso 02 funcionan como nivelación. La especialización debe concentrar la profundidad en configuración avanzada y trabajo técnico compartido.
+
+## 03C · Gemini y NotebookLM
+
+- **Gemini aplicado:** aproximadamente 10 horas, centrado en Workspace, Gems, Deep Research, Canvas y acciones programadas.
+- **NotebookLM:** aproximadamente 10 horas y se conserva como especialización documental completa.
+
+NotebookLM aporta valor diferencial mediante corpus controlados, citas, contradicciones, vacíos, materiales educativos y publicación responsable.
+
+## 04 · Radar de IA
+
+El antiguo curso estático **IA en el Trabajo 2026** se transforma en un producto periódico.
+
+Su función es responder:
+
+- qué cambió;
+- qué importa;
+- qué merece una prueba;
+- qué debe observarse;
+- qué decisiones conviene tomar ahora.
+
+El material anterior permanece en `backups/AI_updates/` como archivo histórico.
+
+## 05 · Empresa Potenciada por Agentes
+
+El Curso 05 conserva su núcleo práctico:
+
+- arquitectura;
+- contratos operativos;
+- herramientas y datos;
+- coordinación;
+- orquestación;
+- evals;
+- seguridad;
+- observabilidad;
+- producción;
+- ROI.
+
+No debe volver a enseñar qué es un agente, MCP, Skill, subagente o loop. Debe comenzar construyendo y probando.
+
+## 06 · Pedagogía en la Era Agéntica
+
+Cuando se construya, debe concentrarse en:
+
+- diseño de aprendizaje;
+- evaluación auténtica;
+- tutores y agentes educativos;
+- pensamiento crítico;
+- integridad académica;
+- personalización;
+- formación docente;
+- medición del aprendizaje.
+
+No debe convertirse en otra introducción general a la IA.
+
+## 07 · Estrategia, Implementación y Gobernanza
+
+Programa ejecutivo de 24 horas para gerentes, directores, dueños de empresa y responsables de transformación.
+
+El resultado es un Plan de Implementación de IA de 12 meses con diagnóstico, prioridades, procesos, proveedores, datos, gobierno, ROI, talento, pilotos, métricas y roadmap.
+
+No enseña programación ni funciones de plataforma. Enseña a decidir, financiar, gobernar, implementar y escalar.
+
+## Rutas rápidas por audiencia
+
+### Principiante absoluto
 
 ```text
-Prompt Engineering  → diseñar la instrucción
-Context Engineering → diseñar la información y las fuentes
-Loop Engineering    → diseñar ejecución, verificación, corrección y parada
+01 → 02 → una plataforma
 ```
 
-Puede dictarse como curso completo de 8 horas o dividirse en tres talleres independientes.
+### Profesional general
 
-## Nota sobre el curso 02
+```text
+02 → una plataforma → proyecto real
+```
 
-El Nivel 1 de **Fundamentos de trabajar con IA** retoma conceptos de prompts, contexto y loops. Cuando se dicta después del curso 01, debe manejarse como repaso y conexión conceptual. El valor diferencial comienza con el funcionamiento de los modelos, RAG, MCP, Skills, herramientas y agentes.
+### Gerente o líder
 
-## Nota sobre el curso 03A · ChatGPT
+```text
+02 → 07
+```
 
-- **ChatGPT para profesionales:** 10 módulos y aproximadamente 18 horas, sin requisito de programación.
-- **Especialización Codex:** 10 módulos de 2–3 horas para desarrolladores y perfiles técnicos.
+### Emprendedor, consultor o automatizador
 
-La Ruta profesional cubre Chat, Projects, memoria, investigación profunda, Canvas, ChatGPT Work, GPTs, plugins, apps, tareas programadas y gobernanza.
+```text
+02 → una plataforma → 05 → 07
+```
 
-## Nota sobre el curso 03B · Claude
+### Desarrollador
 
-- **Claude para profesionales:** 8 módulos y aproximadamente 16 horas, sin requisito de programación.
-- **Especialización Claude Code:** 12 módulos de 2–3 horas para desarrolladores y perfiles técnicos.
+```text
+02 → Codex o Claude Code
+```
 
-La ruta profesional puede dictarse por separado. Claude Code no debe comprimirse dentro de una sola sesión del curso general.
+### Docente, investigador o profesional documental
 
-## Nota sobre el curso 03C · Gemini y NotebookLM
-
-- **Gemini para profesionales:** 8 módulos y aproximadamente 16 horas.
-- **NotebookLM para investigación y aprendizaje:** 6 módulos y aproximadamente 10 horas.
-
-Gemini cubre multimodalidad, Workspace, Gems, Deep Research, Canvas, aplicaciones y acciones programadas. NotebookLM cubre corpus controlados, citas, Context Engineering documental, informes, mapas, audio, vídeo y publicación responsable.
-
-## Nota sobre el curso 05
-
-El curso utiliza una arquitectura empresarial general y conserva **FerreAgente** como caso de referencia completo. Cada alumno puede construir sobre comercio, servicios profesionales, educación, ecommerce o un caso propio.
-
-Se ofrecen dos rutas equivalentes:
-
-- low-code;
-- Python y código.
-
-El estándar común incluye datos, herramientas, agentes, coordinación, evals, controles humanos, observabilidad, operación y ROI.
-
-## Nota sobre el curso 07
-
-El programa está dirigido a gerentes, directores, vicepresidentes, dueños de empresa y responsables de transformación. No requiere programación.
-
-- **Duración sugerida:** 24 horas.
-- **Resultado:** Plan de Implementación de IA de 12 meses.
-- **Ejes:** madurez, estrategia, procesos, proveedores, datos, riesgo, ROI, talento, pilotos, operación y gobierno.
-
-Utiliza NIST AI RMF, ISO/IEC 42001, los Principios de IA de la OCDE y regulación aplicable como referencias. Distingue estándares voluntarios, regulación y asesoría profesional.
+```text
+02 → NotebookLM → 06
+```
 
 ## Material legado
 
-- `backups/prompting/`: borradores y contenido anterior del curso 01.
-- `backups/claude/`: versión anterior y materiales complementarios del curso de Claude.
+- `backups/prompting/`: borradores y ejemplos anteriores del Curso 01.
+- `backups/claude/`: materiales anteriores del curso de Claude.
+- `backups/AI_updates/`: versión histórica de IA en el Trabajo 2026.
 
-Las carpetas numeradas contienen las versiones vigentes.
+Las carpetas activas contienen los productos vigentes.
