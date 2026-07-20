@@ -1,68 +1,61 @@
-# Ruta profesional · ChatGPT
+# Ruta profesional · ChatGPT aplicado
 
 ## Propósito
 
-Dominar ChatGPT como un entorno de trabajo completo: conversación, contexto, investigación, producción de entregables, especialización, conexiones y tareas recurrentes.
+Convertir ChatGPT en un entorno de trabajo organizado, verificable y conectado para un proceso profesional real.
+
+## Prerrequisito
+
+Completar `02 · Fundamentos de trabajar con IA` o demostrar dominio equivalente.
+
+El alumno debe llegar comprendiendo contexto, RAG, MCP, plugins, agentes, loops, tareas programadas, verificación y control humano. La ruta aplica esos conceptos; no los vuelve a enseñar desde cero.
 
 ## Audiencia
 
-- profesionales de operaciones y administración;
-- consultores y prestadores de servicios;
-- educadores y estudiantes;
-- analistas y líderes de equipo;
-- marketing, ventas y creación de contenido;
-- emprendedores y dueños de PyME.
+- operaciones y administración;
+- consultoría y servicios profesionales;
+- educación;
+- análisis y liderazgo;
+- marketing, ventas y contenido;
+- emprendimiento y PyME.
 
 No requiere programación.
 
-## Prerrequisitos
+## Duración y metodología
 
-- haber utilizado ChatGPT, Claude o Gemini;
-- estructurar instrucciones con objetivo, contexto, formato y criterios;
-- comprender la diferencia entre información permanente y temporal;
-- verificar afirmaciones importantes;
-- conocer un ciclo básico de ejecutar, revisar, corregir y detenerse.
+- **12 horas** en seis bloques.
+- Mínimo **70 % de práctica**.
+- Un solo proceso real durante toda la ruta.
+- Cada bloque agrega una capacidad y una evidencia al proyecto final.
 
-El curso recomendado como preparación es [01 · Cómo comunicarnos y trabajar con la IA](../../01-comunicarnos-trabajar-con-ia/README.md).
+## Seis bloques
 
-## Módulos
-
-1. **Ecosistema:** Chat, Work y Codex.
-2. **Chat, archivos y multimodalidad.**
-3. **Projects, memoria y arquitectura del contexto.**
-4. **Búsqueda e investigación profunda.**
-5. **Canvas y revisión de entregables.**
-6. **ChatGPT Work.**
-7. **GPTs personalizados.**
-8. **Plugins y apps.**
-9. **Tareas programadas.**
-10. **Gobernanza y proyecto final.**
-
-## Metodología
-
-- 18 horas de formación.
-- Al menos 60 % del tiempo se dedica a práctica.
-- Cada participante trabaja sobre un proceso real.
-- Cada módulo produce un entregable que se integra en el proyecto final.
-- Se utilizan casos normales, datos faltantes, fuentes contradictorias y solicitudes de alto riesgo.
+| Bloque | Enfoque | Evidencia |
+|---:|---|---|
+| 1 | Ecosistema, archivos y multimodalidad | mapa de elección y flujo de entrada |
+| 2 | Projects, memoria y continuidad | Project configurado y auditoría de privacidad |
+| 3 | Búsqueda y Deep Research | informe con fuentes, contradicciones y fecha de corte |
+| 4 | Canvas y ChatGPT Work | entregable editable y versionado |
+| 5 | GPTs, plugins y apps | GPT con pruebas y flujo conectado |
+| 6 | Tareas, gobernanza y proyecto final | rutina, matriz de permisos y manual operativo |
 
 ## Proyecto transversal
 
-El estudiante construye un sistema de trabajo con:
+El estudiante construye:
 
 - un Project;
 - instrucciones persistentes;
-- entre tres y siete fuentes relevantes;
-- una conversación de investigación;
-- una conversación de producción;
+- entre tres y siete fuentes;
+- conversaciones separadas para investigación y producción;
+- un informe verificable;
 - un entregable editable;
 - un GPT especializado;
-- al menos una app o plugin, cuando esté disponible;
-- una tarea programada;
-- una matriz de permisos y riesgos;
-- un manual de continuidad.
+- una app o plugin cuando esté disponible;
+- una tarea recurrente;
+- una matriz de riesgos y permisos;
+- un manual de continuidad y desconexión.
 
-## Archivos
+## Archivos de trabajo
 
 1. [Ecosistema, Chat, archivos y multimodalidad](./01-ecosistema-chat-archivos-multimodalidad.md)
 2. [Projects, memoria y contexto](./02-projects-memoria-contexto.md)
@@ -71,13 +64,19 @@ El estudiante construye un sistema de trabajo con:
 5. [GPTs, plugins y apps](./05-gpts-plugins-apps.md)
 6. [Tareas, gobernanza y proyecto final](./06-tareas-gobernanza-proyecto-final.md)
 
+## Qué debe omitir el instructor
+
+No dedicar sesiones a definir nuevamente:
+
+- LLM y tokens;
+- prompt engineering básico;
+- RAG como concepto;
+- MCP o API como vocabulario;
+- agentes y loops;
+- por qué verificar.
+
+Cuando una práctica necesite uno de estos conceptos, se utiliza una recapitulación de máximo diez minutos y se enlaza con el Curso 02.
+
 ## Regla de actualidad
 
-El instructor no debe enseñar botones, límites o planes de memoria. Debe enseñar decisiones transferibles y comprobar la interfaz vigente antes de cada cohorte.
-
-Toda función debe presentarse con una de estas etiquetas:
-
-- **Disponible ampliamente.**
-- **Depende del plan o espacio de trabajo.**
-- **En despliegue gradual.**
-- **Capacidad experimental o sujeta a cambios.**
+El instructor enseña decisiones transferibles y verifica la interfaz antes de cada cohorte. Toda función debe marcarse como ampliamente disponible, dependiente del plan, en despliegue o experimental.
