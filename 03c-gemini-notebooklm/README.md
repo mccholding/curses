@@ -1,73 +1,102 @@
-# 03C · Cómo usar Gemini y NotebookLM
+# 03C · Gemini aplicado y NotebookLM
 
-## Domina el ecosistema Google AI para trabajar, investigar y aprender
+## Ecosistema Google AI para trabajo conectado y conocimiento fundamentado
 
-Curso organizado como una ruta de plataforma paralela a ChatGPT y Claude.
+Este programa parte de `02 · Fundamentos de trabajar con IA`. No repite el mapa general de modelos, RAG, MCP, agentes, loops o automatización.
 
 **Fecha de corte del contenido:** 18 de julio de 2026.
 
-> Gemini y NotebookLM cambian con rapidez. La disponibilidad depende del plan, país, edad, dispositivo, configuración de actividad y edición de Google Workspace. Antes de cada cohorte se deben revisar las fuentes oficiales y probar las funciones con una cuenta equivalente a la audiencia.
+> La disponibilidad de Gemini y NotebookLM depende del plan, país, edad, dispositivo y edición de Google Workspace. Antes de cada cohorte se deben verificar las fuentes oficiales y probar con una cuenta equivalente a la audiencia.
 
 ## Lugar en la ruta
 
-1. [01 · Cómo comunicarnos y trabajar con la IA](../01-comunicarnos-trabajar-con-ia/README.md)
-2. [02 · Fundamentos de trabajar con IA](../02-fundamentos-trabajar-con-ia/README.md)
-3. Elegir una o varias plataformas:
-   - [03A · ChatGPT](../03a-como-usar-chatgpt/README.md)
-   - [03B · Claude](../03-como-usar-claude/README.md)
-   - **03C · Gemini y NotebookLM**
+```text
+02 · Fundamentos de trabajar con IA
+              ↓
+03C · Gemini aplicado
+              └── NotebookLM como especialización documental
+```
 
-ChatGPT, Claude y Gemini no son pasos consecutivos obligatorios. Son rutas paralelas. NotebookLM es una especialización del ecosistema Google para trabajar sobre fuentes seleccionadas y controladas.
+ChatGPT, Claude y Gemini son plataformas paralelas. NotebookLM puede tomarse después del Curso 02 incluso sin completar toda la Ruta Gemini.
 
-## Dos rutas
+## Ruta A · Gemini aplicado
 
-### Ruta A · Gemini para profesionales
+Para personas y organizaciones que trabajan con Gmail, Drive, Docs, Sheets, Slides y Calendar.
 
-Para personas que trabajan con Google Workspace, operaciones, administración, educación, marketing, consultoría, análisis, ventas, liderazgo y emprendimiento.
-
-- **Duración sugerida:** 16 horas.
-- **Formato:** 8 módulos progresivos.
+- **Duración sugerida:** 10 horas.
+- **Formato:** cinco bloques aplicados.
 - **Programación:** no requerida.
-- **Resultado:** diseñar un sistema de trabajo con Gemini, Workspace, Gems, Deep Research, Canvas, aplicaciones conectadas y acciones programadas.
+- **Resultado:** sistema de trabajo con Workspace, Gem, investigación, Canvas y rutina conectada.
+
+### Cinco bloques diferenciales
+
+1. **Workspace y multimodalidad aplicada:** preparar trabajo desde archivos y servicios autorizados.
+2. **Gems:** convertir un método repetible en un asistente especializado con pruebas.
+3. **Deep Research:** investigar con fuentes web, archivos y contenido autorizado de Google.
+4. **Canvas y producción:** transformar investigación en documentos, presentaciones, prototipos o aplicaciones.
+5. **Apps, acciones, gobernanza y proyecto final:** diseñar una rutina conectada con permisos mínimos y revisión humana.
 
 [Ver Ruta Gemini](./ruta-gemini/README.md)
 
-### Ruta B · NotebookLM para investigación y aprendizaje
+## Ruta B · NotebookLM
 
 Para docentes, estudiantes, investigadores, consultores, analistas y equipos que trabajan con documentos, políticas, manuales o conocimiento interno.
 
 - **Duración sugerida:** 10 horas.
-- **Formato:** 6 módulos progresivos.
+- **Formato:** seis módulos.
 - **Programación:** no requerida.
-- **Resultado:** construir un centro de conocimiento fundamentado en fuentes, con citas, informes, mapas, materiales de estudio, Audio Overviews y Video Overviews.
+- **Resultado:** centro de conocimiento con corpus controlado, citas, contradicciones, vacíos, materiales y protocolo de actualización.
+
+NotebookLM se conserva prácticamente completo porque su valor no es volver a explicar RAG. Su valor es enseñar disciplina documental: selección de corpus, trazabilidad, revisión de citas, mantenimiento y publicación responsable.
 
 [Ver Ruta NotebookLM](./ruta-notebooklm/README.md)
 
-## Arquitectura del ecosistema
+## Diferencia central
 
 ```text
 GEMINI
-Chat, multimodalidad, Workspace, Gems, Deep Research,
-Canvas, aplicaciones y acciones programadas.
-        ↓
+Trabajo general, Workspace, investigación, creación y acciones.
+
 NOTEBOOKLM
-Corpus controlado, citas, síntesis, aprendizaje,
-materiales y publicación fundamentada en fuentes.
+Análisis profundo y transformación de un corpus seleccionado.
 ```
 
-## Resultados generales
+## Qué no debe repetir
 
-Al finalizar, la persona podrá:
+Ninguna ruta dedica módulos completos a definir:
 
-- elegir entre Gemini, Deep Research y NotebookLM según la tarea;
-- trabajar con texto, imágenes, audio, vídeo y archivos;
-- conectar trabajo con Gmail, Drive y otras aplicaciones autorizadas;
-- diseñar Gems especializadas con pruebas de aceptación;
-- investigar con fuentes web, archivos, Gmail, Drive y notebooks;
-- construir notebooks con fuentes vigentes, citas y protocolos de actualización;
-- transformar fuentes en informes, guías, mapas, audio, vídeo, cuestionarios y presentaciones;
-- programar rutinas recurrentes en Gemini cuando el plan lo permita;
-- aplicar controles de privacidad, permisos, copyright y aprobación humana.
+- LLM, tokens o modelos;
+- prompting básico;
+- RAG como concepto;
+- MCP o API;
+- agentes y loops;
+- tareas programadas como idea general.
+
+Las conexiones con esos conceptos se hacen mediante referencias breves al Curso 02.
+
+## Proyectos
+
+### Gemini
+
+```text
+Proceso de Workspace
+→ mapa de fuentes y permisos
+→ Gem
+→ investigación
+→ entregable en Canvas
+→ rutina gobernada
+```
+
+### NotebookLM
+
+```text
+Objetivo
+→ corpus autorizado
+→ preguntas y citas
+→ contradicciones y vacíos
+→ paquete multiformato
+→ política de publicación y actualización
+```
 
 ## Estructura
 
@@ -78,15 +107,3 @@ Al finalizar, la persona podrá:
 5. [Evaluación y rúbricas](./material-instructor/evaluacion-y-rubricas.md)
 6. [Plan de actualización](./material-instructor/plan-de-actualizacion.md)
 7. [Fuentes oficiales](./fuentes-oficiales.md)
-
-## Principio pedagógico
-
-Cada módulo debe responder:
-
-1. ¿Qué problema resuelve esta capacidad?
-2. ¿Cuándo conviene usarla y cuándo no?
-3. ¿Qué datos o fuentes necesita?
-4. ¿Qué resultado verificable debe producir?
-5. ¿Qué puede fallar?
-6. ¿Qué permisos o riesgos existen?
-7. ¿Cómo se transfiere a un proceso real del alumno?
