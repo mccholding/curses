@@ -1,67 +1,74 @@
-# Mapa del curso
+# Mapa del Curso 01
 
 ## Promesa
 
-> Aprende a pasar de una petición improvisada a un sistema de trabajo con IA que tiene instrucciones claras, contexto suficiente, verificación y límites.
+> Pasar de una petición improvisada a un sistema de trabajo con instrucciones claras, contexto suficiente, verificación y límites.
 
-## Recorrido
+## Posición
+
+El Curso 01 es una preparación opcional para principiantes y un conjunto de talleres independientes para equipos.
+
+El Curso 02 sigue siendo el núcleo conceptual del portafolio. Cuando una persona ya completó Fundamentos, este contenido solo debe utilizarse como práctica adicional o refuerzo específico.
+
+## Tres talleres comercializables
+
+| Taller | Pregunta central | Entregable | Duración |
+|---|---|---|---:|
+| Prompt Engineering | ¿Cómo pedir un resultado claro y verificable? | plantilla de instrucción aplicada | 2 h |
+| Context Engineering | ¿Qué debe saber la IA, dónde debe vivir y qué debe excluirse? | mapa de contexto y fuentes | 2 h |
+| Loop Engineering | ¿Cómo ejecuta, verifica, corrige y termina? | runbook de un ciclo de trabajo | 2 h |
+
+## Versión completa para principiantes
 
 | Módulo | Tema | Pregunta que responde | Entregable |
 |---:|---|---|---|
-| 0 | Introducción | ¿Por qué un buen prompt ya no es suficiente? | Diagnóstico de una interacción actual |
-| 1 | Fundamentos de Prompt Engineering | ¿Cómo pedir un resultado claro? | Prompt estructurado |
-| 2 | Prompt Engineering avanzado | ¿Cómo controlar calidad, formato e iteración? | Plantilla reutilizable |
-| 3 | Context Engineering | ¿Qué necesita saber la IA y qué debo excluir? | Mapa de contexto |
-| 4 | Arquitectura del contexto | ¿Dónde debe vivir cada tipo de información? | Project o espacio de trabajo diseñado |
-| 5 | Loop Engineering | ¿Cómo ejecuta, verifica, corrige y termina? | Loop no técnico documentado |
-| 6 | Multimodalidad y verificación | ¿Cómo usar voz, imágenes y archivos sin perder control? | Flujo multimodal verificado |
-| 7 | Proyecto integrador | ¿Cómo se combinan las tres ingenierías? | Sistema de trabajo completo |
+| 0 | Introducción | ¿Por qué un buen prompt ya no es suficiente? | diagnóstico de una interacción actual |
+| 1 | Fundamentos de Prompt Engineering | ¿Cómo pedir un resultado claro? | prompt estructurado |
+| 2 | Prompt Engineering avanzado | ¿Cómo controlar calidad, formato e iteración? | plantilla reutilizable |
+| 3 | Context Engineering | ¿Qué necesita saber la IA y qué debo excluir? | mapa de contexto |
+| 4 | Arquitectura del contexto | ¿Dónde debe vivir cada tipo de información? | Project o espacio diseñado |
+| 5 | Loop Engineering | ¿Cómo ejecuta, verifica, corrige y termina? | loop no técnico documentado |
+| 6 | Multimodalidad y verificación | ¿Cómo usar voz, imágenes y archivos sin perder control? | flujo multimodal verificado |
+| 7 | Proyecto integrador | ¿Cómo se combinan las tres ingenierías? | sistema de trabajo completo |
 
-## Distribución sugerida
+## Distribución de la versión completa
 
 - Prompt Engineering: **3 horas**.
 - Context Engineering: **2 horas**.
 - Loop Engineering: **1,5 horas**.
 - Multimodalidad, verificación y proyecto: **1,5 horas**.
 
-## Metodología de cada módulo
+## Metodología
 
-1. Concepto en lenguaje sencillo.
-2. Demostración antes/después.
-3. Práctica guiada.
-4. Aplicación al trabajo real del alumno.
-5. Evidencia o entregable.
-6. Revisión con una lista de criterios.
+1. Demostración antes/después.
+2. Práctica guiada.
+3. Aplicación al trabajo real.
+4. Entregable verificable.
+5. Revisión con criterios.
+6. Transferencia a otra herramienta o proceso.
 
 ## Caso transversal
 
-Durante el curso se recomienda utilizar una sola tarea recurrente, por ejemplo:
+Durante la versión completa se utiliza una sola tarea recurrente, por ejemplo:
 
-- reporte semanal de ventas;
+- reporte semanal;
 - propuesta comercial;
 - planificación de una clase;
 - campaña de contenido;
 - análisis de una reunión;
 - investigación para una decisión.
 
-El mismo caso evoluciona:
-
 ```text
-Módulos 1–2: diseñar la instrucción
-Módulos 3–4: diseñar el contexto
-Módulo 5: diseñar el ciclo de trabajo
-Módulo 6: aportar evidencia y verificar
-Módulo 7: integrar y presentar
+Prompt → Contexto → Loop → Verificación → Sistema de trabajo
 ```
 
-## Límites del curso
+## Límites
 
-Este curso no enseña programación, APIs, MCP, Codex, Claude Code ni construcción técnica de agentes. Enseña la lógica necesaria para comprender y utilizar esas herramientas en los cursos siguientes.
+Este curso no vuelve a desarrollar el ecosistema completo de IA. No enseña en profundidad modelos, RAG, MCP, Skills, plugins, API, agentes, Codex o Claude Code.
 
 ## Conexión con la ruta
 
-- **Curso 01:** diseña la comunicación, el contexto y el proceso.
-- **Curso 02:** explica LLM, RAG, MCP, Skills, plugins, agentes y otras piezas.
-- **Curso 03A, 03B o 03C:** implementa estos principios dentro de ChatGPT, Claude, Gemini y NotebookLM.
-- **Curso 04:** los aplica a productividad y procesos empresariales.
-- **Curso 05:** los convierte en sistemas agénticos funcionales.
+- **01:** desarrolla habilidades prácticas de instrucción, contexto y ciclos.
+- **02:** explica el mapa completo y es el curso central.
+- **03A, 03B o 03C:** aplica el mapa dentro de una plataforma.
+- **05, 06 o 07:** especializa por construcción, educación o liderazgo.
