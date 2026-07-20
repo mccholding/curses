@@ -1,50 +1,40 @@
-# Ruta A · Gemini para profesionales
+# Ruta A · Gemini aplicado
 
 ## Propósito
 
-Dominar Gemini como plataforma de trabajo conectada al ecosistema Google, no únicamente como un chat.
+Aplicar el mapa del Curso 02 dentro del ecosistema Google para trabajar con Workspace, diseñar Gems, investigar, producir entregables y crear rutinas conectadas.
+
+## Prerrequisito
+
+Completar `02 · Fundamentos de trabajar con IA` o demostrar dominio equivalente.
+
+La ruta no vuelve a enseñar modelos, contexto, RAG, agentes, loops o tareas programadas como conceptos introductorios.
 
 ## Audiencia
 
-- profesionales que trabajan con Gmail, Drive, Docs, Sheets, Slides y Calendar;
+- profesionales que trabajan con Google Workspace;
 - operaciones, administración y ventas;
 - docentes y estudiantes;
 - consultores y analistas;
 - marketing, contenido y liderazgo;
-- emprendedores y equipos de innovación.
+- emprendimiento e innovación.
 
 ## Duración
 
-- **16 horas**;
-- ocho sesiones de aproximadamente dos horas;
-- al menos 60 % del tiempo dedicado a práctica;
-- un proyecto transversal basado en un proceso real.
+- **10 horas**;
+- cinco bloques de dos horas;
+- mínimo 70 % de práctica;
+- un proceso real durante toda la ruta.
 
-## Resultados
+## Cinco bloques
 
-Al finalizar, la persona podrá:
-
-- elegir la capacidad adecuada de Gemini;
-- trabajar con texto, archivos, imágenes, audio y vídeo;
-- usar información autorizada de Google Workspace;
-- diseñar una Gem especializada y evaluarla;
-- realizar investigación profunda con fuentes controladas;
-- crear documentos, aplicaciones, presentaciones o prototipos en Canvas;
-- conectar aplicaciones y diseñar rutinas programadas;
-- aplicar permisos mínimos, privacidad y aprobación humana.
-
-## Módulos
-
-| Sesión | Tema | Evidencia |
+| Bloque | Tema | Evidencia |
 |---:|---|---|
-| 1 | Ecosistema, cuenta y diagnóstico | mapa de capacidades |
-| 2 | Chat, modelos y multimodalidad | flujo multimodal |
-| 3 | Google Workspace conectado | mapa de fuentes y permisos |
-| 4 | Gems y contexto reusable | Gem con pruebas |
-| 5 | Deep Research | informe con evidencia |
-| 6 | Canvas y producción | entregable revisado |
-| 7 | Apps y acciones programadas | rutina conectada |
-| 8 | Gobernanza y proyecto final | sistema documentado |
+| 1 | Workspace y multimodalidad aplicada | mapa de fuentes, permisos y flujo |
+| 2 | Gems | Gem especializada con diez pruebas |
+| 3 | Deep Research | informe con evidencia y contradicciones |
+| 4 | Canvas y producción | entregable revisado y versionado |
+| 5 | Apps, acciones y gobernanza | rutina conectada y sistema documentado |
 
 ## Proyecto transversal
 
@@ -56,14 +46,30 @@ El participante elige una tarea que:
 - tenga criterios verificables;
 - incluya una decisión sobre privacidad o permisos.
 
-La tarea evoluciona:
-
 ```text
-Chat y archivos
-→ contexto de Workspace
-→ Gem especializada
+Workspace
+→ Gem
 → investigación
-→ entregable en Canvas
+→ Canvas
 → rutina conectada
 → sistema gobernado
 ```
+
+## Evidencias mínimas
+
+- mapa de fuentes y permisos;
+- Gem con instrucciones y diez casos de prueba;
+- informe de Deep Research con fuentes;
+- entregable en Canvas;
+- conexión de bajo riesgo;
+- acción programada cuando esté disponible;
+- prueba de fallo;
+- protocolo de desconexión y continuidad.
+
+## Uso de los archivos del curso
+
+Los archivos existentes siguen siendo material de práctica. Las explicaciones de chat, modelos, contexto y automatización se utilizan únicamente como recapitulación breve.
+
+## Regla del instructor
+
+Una definición ya cubierta por el Curso 02 no puede ocupar más de diez minutos. La mayor parte del tiempo se dedica a trabajar con fuentes reales, configurar, probar, corregir y documentar.
