@@ -1,112 +1,103 @@
-# Mapa del curso · Cómo usar ChatGPT
+# Mapa del curso · ChatGPT aplicado
 
 ## Propósito
 
-Pasar de utilizar ChatGPT para preguntas aisladas a diseñar un sistema de trabajo que conserve contexto, consulte fuentes, produzca entregables, se conecte con herramientas y ejecute tareas recurrentes bajo supervisión humana.
+Pasar del mapa conceptual del Curso 02 a un sistema de trabajo real dentro de ChatGPT.
 
-## Progresión
+## Prerrequisito
+
+`02 · Fundamentos de trabajar con IA` o dominio equivalente.
+
+No se vuelven a enseñar LLM, tokens, RAG, MCP, agentes o loops como teoría. Se utilizan para tomar decisiones y construir.
+
+## Progresión aplicada
 
 ```text
-PREGUNTAR
-Chat, archivos, voz, imágenes y búsqueda
+ELEGIR
+Chat, búsqueda, Work, archivos o Codex
         ↓
 ORGANIZAR
-Projects, instrucciones, memoria y fuentes
+Projects, instrucciones, fuentes, conversaciones y memoria
         ↓
 INVESTIGAR
-Búsqueda e investigación profunda con evidencia
+Deep Research con evidencia y contradicciones
         ↓
 PRODUCIR
-Canvas y ChatGPT Work para entregables editables
+Canvas y Work para entregables editables
         ↓
 ESPECIALIZAR
-GPTs configurados para procesos concretos
+GPTs con instrucciones, conocimiento y pruebas
         ↓
 CONECTAR
-Plugins, apps, sincronización, acciones y permisos
+Plugins y apps con permisos mínimos
         ↓
-PROGRAMAR
-Tareas únicas, recurrentes y de monitoreo
-        ↓
-GOBERNAR
-Privacidad, aprobación, trazabilidad y controles
-        ↓
-CONSTRUIR SOFTWARE
-Codex como especialización técnica
+PROGRAMAR Y GOBERNAR
+Tareas, monitoreo, continuidad y controles
 ```
 
-## Estructura de la Ruta profesional
+## Seis bloques
 
-| Módulo | Tema | Entregable |
+| Bloque | Tema | Entregable |
 |---:|---|---|
-| 0 | Ecosistema: Chat, Work y Codex | mapa de decisiones por tipo de tarea |
-| 1 | Chat, archivos y multimodalidad | flujo multimodal con evidencia |
-| 2 | Projects, memoria y contexto | Project real configurado |
-| 3 | Búsqueda e investigación profunda | informe documentado y verificable |
-| 4 | Canvas y revisión de entregables | documento o prototipo versionado |
-| 5 | ChatGPT Work | entregable profesional terminado |
-| 6 | GPTs personalizados | GPT probado con casos de aceptación |
-| 7 | Plugins y apps | flujo conectado con permisos definidos |
-| 8 | Tareas programadas | tarea recurrente o monitoreo configurado |
-| 9 | Gobernanza y proyecto final | sistema de trabajo documentado |
+| 1 | Ecosistema, archivos y multimodalidad | mapa de decisión y flujo de entrada |
+| 2 | Projects, memoria y continuidad | Project configurado |
+| 3 | Búsqueda y Deep Research | informe verificable |
+| 4 | Canvas y ChatGPT Work | entregable editable y versionado |
+| 5 | GPTs, plugins y apps | GPT probado y flujo conectado |
+| 6 | Tareas, gobernanza y proyecto final | sistema documentado y operable |
 
-## Duración sugerida
+## Duración
 
-- Módulos 0–1: 3 horas.
-- Módulo 2: 2 horas.
-- Módulo 3: 2 horas.
-- Módulos 4–5: 4 horas.
-- Módulos 6–7: 4 horas.
-- Módulos 8–9: 3 horas.
+- Bloque 1: 1,5 horas.
+- Bloque 2: 2 horas.
+- Bloque 3: 2 horas.
+- Bloque 4: 2 horas.
+- Bloque 5: 2,5 horas.
+- Bloque 6: 2 horas.
 
-Total: **18 horas**, más trabajo independiente.
+Total recomendado: **12 horas**, más trabajo independiente.
 
 ## Proyecto transversal
 
 Cada participante selecciona un proceso real que:
 
 - ocurra al menos dos veces al mes;
-- utilice fuentes identificables;
+- use fuentes identificables;
 - produzca un entregable reconocible;
 - tenga criterios de calidad;
-- incluya al menos una decisión que deba conservar una persona.
-
-El proceso evoluciona así:
+- incluya una decisión reservada a una persona.
 
 ```text
-Chat asistido
-→ Project con contexto
-→ investigación con evidencia
-→ entregable en Canvas o Work
-→ GPT especializado
-→ plugin o app conectada
-→ tarea programada
-→ sistema gobernado y documentado
+Project
+→ investigación
+→ entregable
+→ GPT
+→ conexión
+→ tarea recurrente
+→ manual operativo
 ```
 
 ## Casos sugeridos
 
-- reporte semanal de operaciones;
+- reporte semanal;
 - investigación de mercado;
-- preparación de propuestas comerciales;
-- planificación y producción de contenido;
+- preparación de propuestas;
+- planificación de contenido;
 - asistente de aprendizaje;
-- preparación de reuniones ejecutivas;
+- preparación de reuniones;
 - análisis de documentos y datos;
 - seguimiento de clientes;
-- monitoreo de noticias o cambios regulatorios.
-
-## Regla de alcance
-
-La Ruta profesional no enseña a programar APIs ni a desarrollar software. Las integraciones técnicas, repositorios, terminal y automatizaciones de código pertenecen a la Especialización Codex.
+- monitoreo de novedades.
 
 ## Evaluación
 
-- prácticas de módulos: 30 %;
-- Project y arquitectura del contexto: 15 %;
-- investigación y trazabilidad: 15 %;
-- GPT y conexión: 15 %;
-- tarea programada: 10 %;
-- proyecto final y presentación: 15 %.
+- Project y arquitectura: 20 %;
+- investigación y trazabilidad: 20 %;
+- entregable editable: 15 %;
+- GPT y pruebas: 20 %;
+- conexión y tarea: 10 %;
+- proyecto final y manual: 15 %.
 
-Para aprobar, el sistema debe demostrar utilidad, trazabilidad, límites claros y capacidad de recuperación ante errores.
+## Regla de alcance
+
+La Ruta profesional no enseña desarrollo de software. Repositorios, terminal, pruebas, Git y automatización técnica pertenecen a Codex.
