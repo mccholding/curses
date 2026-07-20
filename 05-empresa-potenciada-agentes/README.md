@@ -1,60 +1,68 @@
 # 05 · Construye una Empresa Potenciada por Agentes de IA
 
-## Diseña, construye y opera un sistema de agentes para procesos reales
+## De comprender agentes a construir un sistema empresarial real
 
-Este curso es la especialización práctica para pasar de utilizar asistentes de IA a construir sistemas que consultan datos, usan herramientas, coordinan especialistas, verifican resultados y trabajan bajo supervisión humana.
+Este curso es la especialización práctica del portafolio. Parte de `02 · Fundamentos de trabajar con IA` y lleva al alumno a diseñar, implementar, evaluar y operar un sistema agéntico con datos, herramientas, coordinación y control humano.
 
-La arquitectura del curso es general. **FerreAgente — El Tornillo de Oro** funciona como caso de referencia completo, pero cada participante aplica los módulos a su propia empresa, organización o proyecto.
+No vuelve a explicar qué es un agente, MCP, Skill, subagente, loop o tarea programada. Comienza construyendo.
+
+## Propuesta de valor
 
 ```text
-PRINCIPIO GENERAL
+CURSO 02
+Comprender las piezas y elegir el nivel correcto.
         ↓
-CASO FERREAGENTE
-        ↓
-TRANSFERENCIA A OTROS SECTORES
-        ↓
-CONSTRUCCIÓN DEL ALUMNO
-        ↓
-PRUEBA Y REFLEXIÓN
+CURSO 05
+Construir, probar, desplegar y operar el sistema.
 ```
 
-## Lugar en la ruta
+La arquitectura es neutral respecto al proveedor. **FerreAgente — El Tornillo de Oro** funciona como caso de referencia completo, pero cada participante trabaja sobre su empresa, organización o proyecto.
 
-Prerrequisitos recomendados:
+## Prerrequisito
 
-1. [01 · Cómo comunicarnos y trabajar con la IA](../01-comunicarnos-trabajar-con-ia/README.md)
-2. [02 · Fundamentos de trabajar con IA](../02-fundamentos-trabajar-con-ia/README.md)
-3. Una ruta de plataforma, recomendada pero no obligatoria:
-   - [03A · Cómo usar ChatGPT](../03a-como-usar-chatgpt/README.md)
-   - [03B · Cómo usar Claude](../03-como-usar-claude/README.md)
-   - [03C · Cómo usar Gemini y NotebookLM](../03c-gemini-notebooklm/README.md)
+- completar `02 · Fundamentos de trabajar con IA` o demostrar dominio equivalente;
+- poder definir un proceso, una fuente de verdad y un criterio de éxito;
+- tener un caso real o un proceso de práctica.
 
-El curso 01 aporta Prompt, Context y Loop Engineering. El curso 02 aporta el mapa tecnológico. Los cursos 03A, 03B y 03C enseñan a implementar esos principios dentro de ChatGPT, Claude o el ecosistema Google. Este curso integra las piezas en un sistema empresarial funcional y transferible entre modelos.
+Una ruta de ChatGPT, Claude o Gemini es útil, pero no obligatoria. El Curso 01 solo se recomienda a quien necesite práctica adicional de Prompt, Context o Loop Engineering.
 
 ## Audiencia
 
-- Emprendedores y fundadores.
-- Dueños y operadores de PyME.
-- Consultores y profesionales de automatización.
-- Analistas de operaciones.
-- Desarrolladores y perfiles técnicos.
-- Equipos de innovación que necesitan construir un piloto verificable.
+- emprendedores y fundadores;
+- dueños y operadores de PyME;
+- consultores de automatización;
+- analistas de operaciones;
+- desarrolladores y perfiles técnicos;
+- equipos de innovación;
+- profesionales que necesitan construir un piloto verificable.
 
 ## Duración
 
-- **10 semanas.**
-- **11 módulos**, incluido el módulo de preparación.
-- Entre 3 y 5 horas semanales de clase, práctica y documentación.
-- Un único proyecto incremental durante todo el programa.
+- **10 semanas**;
+- 11 módulos, incluido el mapa inicial;
+- entre 3 y 5 horas semanales;
+- un proyecto incremental durante todo el programa.
 
 ## Dos rutas de implementación
 
-- **Ruta low-code:** n8n o Make, hojas de cálculo, bases no-code y conectores.
-- **Ruta con código:** Python, API de modelos, SQLite o PostgreSQL, MCP y frameworks agénticos.
+- **Low-code:** n8n o Make, hojas de cálculo, bases no-code y conectores.
+- **Código:** Python, APIs, bases de datos, MCP y frameworks agénticos.
 
-Ambas rutas comparten arquitectura, políticas, pruebas, evaluaciones, controles humanos y estándares de calidad.
+Ambas rutas deben cumplir los mismos contratos, pruebas, controles y criterios de operación.
 
-El alumno puede utilizar modelos de OpenAI, Anthropic, Google u otros proveedores. Los ejemplos pueden mostrar ChatGPT, Claude, Gemini, Codex o Claude Code, pero la arquitectura no debe quedar bloqueada a una marca.
+## Núcleo que se conserva
+
+1. selección y priorización del proceso;
+2. contrato operativo del agente;
+3. primer agente funcional;
+4. datos, herramientas y permisos;
+5. especialización de responsabilidades;
+6. patrones de coordinación;
+7. orquestador y rutinas;
+8. evals, seguridad y aprobación humana;
+9. producción, observabilidad e incidentes;
+10. economía, costos y ROI;
+11. integración final y manual operativo.
 
 ## Resultado final
 
@@ -62,47 +70,48 @@ Cada participante entrega un sistema mínimo con:
 
 - un orquestador;
 - tres agentes especializados;
-- al menos dos herramientas;
+- dos herramientas;
 - una fuente de datos;
 - un patrón de coordinación;
-- una cola de aprobación humana;
-- evaluaciones reproducibles;
+- cola de aprobación;
+- evals reproducibles;
 - observabilidad básica;
 - cálculo de costos y retorno;
-- manual operativo.
+- manual operativo y de incidentes.
+
+La arquitectura mínima puede reducirse cuando el proceso no justifique tres agentes. Se evalúa mejor una solución pequeña y confiable que una red compleja sin necesidad.
 
 ## Estructura
 
 1. [Mapa del curso](./00-mapa-del-curso.md)
-2. [Módulo 0 · Mapa agéntico de la empresa](./curso/00-mapa-agentico-empresa.md)
-3. [Módulo 1 · Contrato operativo del agente](./curso/01-contrato-operativo-agente.md)
-4. [Módulo 2 · Primer agente funcional](./curso/02-primer-agente-funcional.md)
-5. [Módulo 3 · Datos, herramientas y MCP](./curso/03-datos-herramientas-mcp.md)
-6. [Módulo 4 · Subagentes y especialización](./curso/04-subagentes-especializacion.md)
-7. [Módulo 5 · Patrones de coordinación](./curso/05-patrones-coordinacion.md)
-8. [Módulo 6 · Orquestador y rutinas](./curso/06-orquestador-operaciones.md)
-9. [Módulo 7 · Evals, seguridad y control humano](./curso/07-evals-seguridad-control.md)
-10. [Módulo 8 · Producción y operación](./curso/08-produccion-operacion.md)
-11. [Módulo 9 · Economía y ROI](./curso/09-economia-roi.md)
-12. [Módulo 10 · Integración final](./curso/10-integracion-final.md)
-13. [Caso completo FerreAgente](./caso-referencia/ferreagente/README.md)
+2. [Mapa agéntico de la empresa](./curso/00-mapa-agentico-empresa.md)
+3. [Contrato operativo del agente](./curso/01-contrato-operativo-agente.md)
+4. [Primer agente funcional](./curso/02-primer-agente-funcional.md)
+5. [Datos, herramientas y MCP](./curso/03-datos-herramientas-mcp.md)
+6. [Subagentes y especialización](./curso/04-subagentes-especializacion.md)
+7. [Patrones de coordinación](./curso/05-patrones-coordinacion.md)
+8. [Orquestador y rutinas](./curso/06-orquestador-operaciones.md)
+9. [Evals, seguridad y control humano](./curso/07-evals-seguridad-control.md)
+10. [Producción y operación](./curso/08-produccion-operacion.md)
+11. [Economía y ROI](./curso/09-economia-roi.md)
+12. [Integración final](./curso/10-integracion-final.md)
+13. [Caso FerreAgente](./caso-referencia/ferreagente/README.md)
 14. [Casos de adaptación](./casos-adaptacion/README.md)
 15. [Rutas low-code y Python](./rutas/README.md)
-16. [Pack de plantillas](./plantillas/pack-plantillas.md)
+16. [Plantillas](./plantillas/pack-plantillas.md)
 17. [Evaluación y rúbrica](./material-instructor/evaluacion-y-rubrica.md)
 
-## Regla pedagógica
+## Regla de no repetición
 
-Cada módulo debe responder siete preguntas:
+Las definiciones introductorias ya cubiertas en el Curso 02 se utilizan como referencias de cinco minutos. El tiempo principal se dedica a:
 
-1. ¿Qué capacidad estamos diseñando?
-2. ¿Cuándo conviene usarla y cuándo no?
-3. ¿Cómo se implementa en FerreAgente?
-4. ¿Cómo cambia en otros sectores?
-5. ¿Qué agrega el alumno a su repositorio?
-6. ¿Cómo demuestra que funciona?
-7. ¿Qué no debe automatizar y por qué?
+- implementar;
+- probar casos normales y adversariales;
+- comparar alternativas simples;
+- medir costos y calidad;
+- documentar decisiones;
+- operar y recuperar el sistema.
 
 ## Principio rector
 
-Usar la solución más simple que funcione. Un workflow estructurado es preferible a un agente autónomo cuando el proceso es estable y predecible. La autonomía se añade únicamente donde la variabilidad lo justifica.
+Usar la solución más simple que funcione. Un workflow estructurado es preferible a un agente autónomo cuando el proceso es estable y predecible.
