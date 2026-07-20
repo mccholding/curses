@@ -1,10 +1,8 @@
-# 01 · Cómo comunicarnos y trabajar con la IA
+# 01 · Prompt, Context y Loop Engineering
 
-## De Prompt Engineering a Context y Loop Engineering
+## Preparación opcional para trabajar mejor con IA
 
-Curso de entrada para aprender a diseñar interacciones y sistemas de trabajo confiables con inteligencia artificial.
-
-La progresión central es:
+Este producto desarrolla tres habilidades de alto retorno:
 
 ```text
 PROMPT ENGINEERING
@@ -25,45 +23,83 @@ Context = qué necesita saber
 Loop    = cómo continúa trabajando hasta terminar
 ```
 
+## Lugar en el portafolio
+
+Este curso ya no se presenta como un paso obligatorio para todas las personas.
+
+- **Principiante absoluto:** puede completar el curso antes de `02 · Fundamentos de trabajar con IA`.
+- **Persona que ya usa IA:** puede comenzar directamente por el Curso 02.
+- **Empresa o equipo:** puede contratar únicamente el taller que necesite.
+
+El Curso 02 es el núcleo conceptual del portafolio. Este Curso 01 funciona como preparación práctica y no debe dictarse después del 02 como si sus conceptos fueran nuevos.
+
+## Formatos recomendados
+
+### Opción A · Tres talleres independientes
+
+1. **Prompt Engineering:** 2 horas.
+2. **Context Engineering:** 2 horas.
+3. **Loop Engineering:** 2 horas.
+
+### Opción B · Curso completo
+
+- **Duración:** 8 horas.
+- **Formato:** siete módulos y proyecto integrador.
+- **Uso recomendado:** principiantes, cohortes corporativas o personas que necesitan práctica intensiva antes del Curso 02.
+
 ## Audiencia
 
-Profesionales, estudiantes, educadores, emprendedores y líderes que utilizan ChatGPT, Claude, Gemini u otras herramientas de IA sin necesidad de programar.
+- profesionales que todavía formulan peticiones vagas;
+- estudiantes y educadores;
+- emprendedores;
+- líderes que quieren delegar mejor;
+- equipos que necesitan criterios comunes para trabajar con IA;
+- personas que usarán después ChatGPT, Claude, Gemini, NotebookLM, agentes o herramientas técnicas.
 
-## Duración sugerida
-
-- **Curso completo:** 8 horas.
-- **Formato:** 8 módulos de aproximadamente 60 minutos.
-- **Talleres independientes:** Prompt Engineering, Context Engineering y Loop Engineering pueden impartirse por separado.
+No requiere programación.
 
 ## Resultados de aprendizaje
 
 Al finalizar, la persona podrá:
 
-- transformar solicitudes vagas en instrucciones claras;
+- transformar solicitudes vagas en instrucciones observables;
 - controlar formato, tono, restricciones y criterios de calidad;
-- decidir qué información debe vivir en el prompt, el proyecto, los archivos o la conversación;
-- reducir repetición, ruido y consumo innecesario de contexto;
+- decidir qué información debe vivir en el mensaje, el Project, los archivos o una fuente externa;
+- reducir ruido, duplicados y contexto innecesario;
 - diseñar procesos iterativos con verificación, corrección y condición de parada;
-- usar texto, voz, imágenes y archivos para aportar mejor contexto;
-- detectar alucinaciones, supuestos y resultados que no cumplen;
-- construir un sistema sencillo de trabajo con IA para una tarea real.
+- incorporar checkpoints humanos;
+- usar texto, voz, imágenes y archivos como contexto útil;
+- construir un sistema sencillo de trabajo para una tarea real.
 
-## Estructura
+## Estructura vigente
 
 1. [Mapa y metodología](./00-mapa-del-curso.md)
-2. [Módulo 1 · Fundamentos de Prompt Engineering](./curso/01-fundamentos-prompt-engineering.md)
-3. [Módulo 2 · Prompt Engineering avanzado](./curso/02-prompt-engineering-avanzado.md)
-4. [Módulo 3 · Context Engineering](./curso/03-context-engineering.md)
-5. [Módulo 4 · Arquitectura del contexto y Projects](./curso/04-arquitectura-contexto-y-projects.md)
-6. [Módulo 5 · Loop Engineering](./curso/05-loop-engineering.md)
-7. [Módulo 6 · Multimodalidad, verificación y debugging](./curso/06-multimodalidad-verificacion-debugging.md)
-8. [Módulo 7 · Proyecto integrador](./curso/07-proyecto-integrador.md)
+2. [Fundamentos de Prompt Engineering](./curso/01-fundamentos-prompt-engineering.md)
+3. [Prompt Engineering avanzado](./curso/02-prompt-engineering-avanzado.md)
+4. [Context Engineering](./curso/03-context-engineering.md)
+5. [Arquitectura del contexto y Projects](./curso/04-arquitectura-contexto-y-projects.md)
+6. [Loop Engineering](./curso/05-loop-engineering.md)
+7. [Multimodalidad, verificación y debugging](./curso/06-multimodalidad-verificacion-debugging.md)
+8. [Proyecto integrador](./curso/07-proyecto-integrador.md)
 9. [Evaluación y rúbrica](./material-instructor/evaluacion-y-rubrica.md)
 10. [Plantilla Prompt–Context–Loop](./plantillas/plantilla-prompt-context-loop.md)
 
+## Qué no debe repetir
+
+Este curso no enseña en profundidad:
+
+- LLM y arquitectura de modelos;
+- tokens y selección de modelos;
+- RAG;
+- MCP, Skills, plugins y API;
+- agentes y subagentes como ecosistema;
+- Claude Code, Codex o construcción técnica.
+
+Todo eso pertenece al Curso 02 o a las especializaciones posteriores.
+
 ## Principio pedagógico
 
-El alumno no memoriza frases mágicas. Aprende a tomar decisiones:
+El alumno no memoriza frases mágicas. Aprende a decidir:
 
 - qué resultado necesita;
 - qué información es relevante;
@@ -74,4 +110,4 @@ El alumno no memoriza frases mágicas. Aprende a tomar decisiones:
 
 ## Material anterior
 
-Los documentos de `prompting/` se conservan como material legado y banco de ejemplos. Este directorio es la versión vigente y organizada del curso.
+Los documentos de `backups/prompting/` se conservan como banco de ejemplos y material legado.
